@@ -62,8 +62,11 @@
 					<!--End CTCT Sign-Up Form-->
 
 <p style="padding: 15px;">You can reach us at <a href="mailto:contact@cityawake.is">contact@cityawake.is</a></p>
-					<a href="https://twitter.com/CityAwakeBoston">Check out our twitter aswell!!</a>
-
+					<ul>
+						<li><a href="https://twitter.com/CityAwakeBoston" target="_blank">Twitter</a></li>
+						<li><a href="https://www.facebook.com/cityawakeboston" target="_blank">Facebook</a></li>
+						<li><a href="https://instagram.com/city_awake/" target="_blank">Instagram</a></li>
+					</ul>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
