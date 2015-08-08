@@ -34,6 +34,7 @@
 	<![endif]-->
 	<?php wp_head(); ?>
 	<link href="/wp-content/themes/cityawake/style_cityawake.css" rel="stylesheet" />
+	<link href="/wp-content/themes/cityawake/festival.css" rel="stylesheet" />
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){

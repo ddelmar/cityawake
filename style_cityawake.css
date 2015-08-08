@@ -2126,11 +2126,10 @@ h2.site-description  {display:none;}
   display: block;
 }
 
-.site-info ul{
-	text-align: center;
-}
+
 .site-info ul li{
 	display: inline;
+
 }
 
 
