@@ -11,6 +11,7 @@ FESTIVAL PAGE!
 .festival .navbar ul{
 	height: 48px;
 }
+
 .festival .center-section{
 	width: 100%;
 	height: 100vh;
@@ -36,16 +37,43 @@ FESTIVAL PAGE!
 	float:right;
 	background-color: #333333;
 }
-.faq{
-	height:50px;
-	width: 80%;
-	background-color: #ff0;
-	cursor: pointer;
+
+*{
+    transition:all 0.7s;
 }
-.faq .answer{
-	width: 100%;
-	background-color: red;
-	margin-top: -100%;
 
+#faq_block{
+    background-color:rgb(160, 180, 225);
+    width:100%;
+    display:inline-block;
+}
 
+#header{
+    text-align:center;
+    margin-top:50px;
+    font-size: 30px !important;
+    font-weight: 900;
+}
+
+.faq_container{
+    background-color:none;
+    margin-top:0px;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.faq{
+    background-color:rgb(255, 60, 50);
+    width:40%;
+    margin:20px 0 20px 0;
+    display:inline-block;
+    cursor:pointer;
+    text-align:center;
+    padding:30px;
+    font-size:20px;
+}
+
+.faq:hover{
+    background-color:rgb(225, 0, 0);
+    padding-bottom:200px;
 }
