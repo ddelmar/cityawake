@@ -1,0 +1,51 @@
+/*
+==============
+FESTIVAL PAGE!
+==============
+*/
+.festival #festival-nav{
+	background-color: green;
+	height: 100%;
+	font-weight: 700;
+}
+.festival .navbar ul{
+	height: 48px;
+}
+.festival .center-section{
+	width: 100%;
+	height: 100vh;
+	padding: 300px;
+}
+.festival .center-section h2{
+	text-align: center;
+}
+.festival .center-section p{
+	margin-top:38px;
+}
+.festival .left-section{
+	padding:100px 50px;
+	width:50%;
+	height:300px;
+	float:left;
+	background-color: #e3e3e3;
+}
+.festival .right-section{
+	padding:100px 50px;
+	width:50%;
+	height:300px;
+	float:right;
+	background-color: #333333;
+}
+.faq{
+	height:50px;
+	width: 80%;
+	background-color: #ff0;
+	cursor: pointer;
+}
+.faq .answer{
+	width: 100%;
+	background-color: red;
+	margin-top: -100%;
+
+
+}
