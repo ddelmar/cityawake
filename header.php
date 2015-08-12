@@ -78,7 +78,7 @@
 					</a>
 					<ul>
 						<li><a href="/programs" class="nav" id="accelerate">Programs</a></li>
-						<li><a href="/festival" class="nav" >Festival</a></li>
+						<li id="festival-nav"><a href="/festival" class="nav" >Festival</a></li>
 						<li><a href="/blog" class="nav" >Blog</a></li>
 						<li><a href="/team" class="nav" >Team</a></li>
 
