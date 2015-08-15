@@ -8,26 +8,8 @@ get_header(); ?>
 	<link href="/firstsite3/wp-content/themes/cityawake/festival.css" rel="stylesheet" />
 	<script src="https://code.jquery.com/jquery-3.0.0-alpha1.js"></script>
 	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-	
+
 	<!-- ADDS FESTIVAL CLASS TO BODY -->
-	<script type="text/javascript">
-	$('body').addClass('festival');
-
-	$('.faq').click(function(){
-		// $(this).children('.answer').toggleClass('open');
-		alert("CLICKED!!");
-
-	$(".faq").click(function(){
-    	$(this).css("padding-bottom", "200px");
-    	$(this).css("background-color", "rgb(225, 0, 0)");
-	});
-
-	$(".faq").mouseleave(function(){
-    	$(this).css("padding-bottom", "30px"); 
-    	$(this).css("background-color", "rgb(255, 60, 50)");
-	});
-	})
-	</script>
 	<div id="primary" class="content-area festival">
 		<div id="content" class="site-content" role="main">
 
@@ -51,42 +33,42 @@ get_header(); ?>
 						<p>Duis rhoncus velit nec est condimentum feugiat. Donec aliquam augue nec gravida lobortis. Nunc arcu mi, pretium quis dolor id, iaculis euismod ligula. Donec tincidunt gravida lacus eget lacinia.</p>
 						<div class="button" data-section="volunteer"></div>
 					</div><!-- .entry-content -->
-						 <div id="faq_block">
+				    <div id="faq_block">
         <p id="header">FAQ</p>
       <div class="faq_container">
         <div class = "faq">
-            <div id="question">Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div id="answer">IDK Leave me alone</div>
+            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="arrow right"></div>
+            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+        </div>
+        
+        <div class = "faq">
+            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div>
         
         <div class = "faq">
-            <div id="question">Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div id="answer">IDK Leave me alone</div>
+            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div>
         
         <div class = "faq">
-            <div id="question">Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div id="answer">IDK Leave me alone</div>
-            <div class="arrow right"></div>
-        </div>
-        
-        <div class = "faq">
-            <div id="question">Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div id="answer">IDK Leave me alone</div>
+            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div> 
         
         <div class = "faq">
-            <div id="question">Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div id="answer">IDK Leave me alone</div>
+            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div>
         
         <div class = "faq">
-            <div id="question">Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div id="answer">IDK Leave me alone</div>
+            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div> 
       </div>
@@ -101,5 +83,31 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
+	<script type="text/javascript">
+	$('body').addClass('festival');
+
+	/*$('.faq').click(function(){
+		// $(this).children('.answer').toggleClass('open');
+		alert("CLICKED!!");
+	})*/
+
+	$(".faq").click(function(){
+    	var jab = $(this);
+    	$(jab).css("padding-bottom", "200px");
+    	$(jab).css("background-color", "rgb(225, 0, 0)");
+
+    	window.setTimeout(function(){
+        	$(jab).children(".answer").css("display", "block");
+    	}, 1000);
+	});
+
+	$(".faq").mouseleave(function(){
+    	var jab = $(this);
+    	$(jab).css("padding-bottom", "30px");
+    	$(jab).css("background-color", "rgb(255, 60, 50)");
+
+    	$(jab).children(".answer").css("display", "none");
+	});
+	</script>
 
 <?php get_footer(); ?>

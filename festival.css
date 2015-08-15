@@ -75,20 +75,15 @@ h1{
     cursor:pointer;
     text-align:left;
     padding:30px;
-    font-size:40px;
+    position:relative;
+    font-size:38px;
 }
 
-/*.faq:hover > #answer{
-    display:inline-block;
-}*/
-
-#question{
-  
-}
-
-#answer{
+.answer{
+    transition:all 0.7s;
+    position:absolute; 
+    bottom:20px;
     display:none;
-    margin-top:30px;
 }
 
 #triangle-up {
