@@ -91,23 +91,61 @@ get_header(); ?>
 		alert("CLICKED!!");
 	})*/
 
-	$(".faq").click(function(){
-    	var jab = $(this);
-    	$(jab).css("padding-bottom", "200px");
-    	$(jab).css("background-color", "rgb(225, 0, 0)");
+	   var mouse_enter =  false;
+        var jab;
+        var clicks = 2;
+        $(".faq").click(function(){
+            clicks++;
+            if(clicks == 2){
+                //mouse_enter = false;
+                set_to_norm();
+            } else { 
+                if(clicks > 2 || clicks < 2){ 
+                    clicks = 1;
+                } 
+                jab = $(this);
+        
+                $(jab).css("padding-bottom", "200px"); 
+                $(jab).css("background-color", "rgb(225, 0, 0)");
+                $(jab).children(".arrow").css("transform", "rotateZ(315deg)");
+        
+                window.setTimeout(function(){
+                    if(mouse_enter === true || clicks == 2){
+                        $(jab).children(".answer").css("display", "block");
+                    }
+                }, 1000);
+            }
+        });
 
-    	window.setTimeout(function(){
-        	$(jab).children(".answer").css("display", "block");
-    	}, 1000);
-	});
+        function set_to_norm(){
+            $(jab).css("padding-bottom", "30px");
+            $(jab).css("background-color", "rgb(255, 60, 50)");
 
-	$(".faq").mouseleave(function(){
-    	var jab = $(this);
-    	$(jab).css("padding-bottom", "30px");
-    	$(jab).css("background-color", "rgb(255, 60, 50)");
+            $(jab).children(".answer").css("display", "none");
+            $(jab).children(".arrow").css("transform", "rotateZ(135deg)");
 
-    	$(jab).children(".answer").css("display", "none");
-	});
+            //Fix for abnormalities
+            window.setTimeout(function(){
+                $(jab).children(".answer").css("display", "none");
+            }, 1000);
+        }
+
+        $(".faq").mouseleave(function(){
+            clicks++;
+            mouse_enter = false;
+        });
+
+        window.setInterval(function(){
+            if(mouse_enter === false){
+            set_to_norm();
+        }
+        }, 10);
+
+        $(".faq").mouseenter(function(){
+            mouse_enter = true;
+        });
+
+
 	</script>
 
 <?php get_footer(); ?>
