@@ -37,38 +37,38 @@ get_header(); ?>
         <p id="header">FAQ</p>
       <div class="faq_container">
         <div class = "faq">
-            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
-            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
         </div>
         
         <div class = "faq">
-            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div class="arrow right"></div>
-        </div>
-        
-        <div class = "faq">
-            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div>
         
         <div class = "faq">
-            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="arrow right"></div>
+        </div>
+        
+        <div class = "faq">
+            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div> 
         
         <div class = "faq">
-            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div>
         
         <div class = "faq">
-            <div id="question">Q: Ut posuere elit non convalis bladit ut posuere elit non?</div>
-            <div class="answer" >A: Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div> 
       </div>
@@ -76,7 +76,6 @@ get_header(); ?>
 					<div class="center-section">
 
 					</div>
-
 
 				</article><!-- #post -->
 			<?php endwhile; ?>

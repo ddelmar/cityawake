@@ -45,7 +45,7 @@ FESTIVAL PAGE!
 #header{
     text-align:center;
     margin-top:50px;
-    font-size: 30px !important;
+    font-size: 50px !important;
     font-weight: 900;
 }
 
@@ -53,11 +53,6 @@ FESTIVAL PAGE!
     background-color:rgb(160, 180, 225);
     width:100%; 
     display:inline-block;
-}
-
-h1{
-    text-align:center;
-    margin:50px;
 }
 
 .faq_container{
@@ -76,7 +71,7 @@ h1{
     text-align:left;
     padding:30px;
     position:relative;
-    font-size:38px;
+    font-size:30px;
 }
 
 .answer{
