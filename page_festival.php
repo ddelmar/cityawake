@@ -37,37 +37,37 @@ get_header(); ?>
         <p id="header">FAQ</p>
       <div class="faq_container">
         <div class = "faq">
-            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
             <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
         </div>
         
         <div class = "faq">
-            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div>
         
         <div class = "faq">
-            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div>
         
         <div class = "faq">
-            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div> 
         
         <div class = "faq">
-            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div>
         
         <div class = "faq">
-            <div id="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
+            <div class="question"> Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="answer" > Ut posuere elit non convalis bladit ut posuere elit non?</div>
             <div class="arrow right"></div>
         </div> 

@@ -71,9 +71,11 @@ FESTIVAL PAGE!
     text-align:left;
     padding:30px;
     position:relative;
-    font-size:30px;
+    font-size:18px;
 }
-
+.question{
+    padding-right:50px;
+}
 .answer{
     transition:all 0.7s;
     position:absolute; 
@@ -96,8 +98,8 @@ FESTIVAL PAGE!
 .arrow {
     width:25px;
     height:25px;
-    border-top:10px solid white;
-    border-right:10px solid white;
+    border-top:6px solid white;
+    border-right:6px solid white;
     float:right;
     margin-top:-60px;
 }
