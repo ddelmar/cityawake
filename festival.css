@@ -4,22 +4,59 @@ FESTIVAL PAGE!
 ==============
 */
 *{
-    transition:all 0.7s;
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
 }
 
 .festival #festival-nav{
-	background-color: green;
+	background-color: #d05721;
 	height: 100%;
 	font-weight: 700;
+    color:#FFF;
+    position:relative;
+}
+.festival #festival-nav a{
+    width:100%;
+    height: 42px;
+}
+.festival #dropdown{
+    background-color: #d05721;
+    height:150px;
+    width:123px;
+    position:absolute;
+    padding-top:20px;
+    left:0;
+    opacity: 0;
+    margin-top: -100%;
+    pointer-events:none;
+}
+.festival #festival-nav:hover #dropdown{
+    opacity: 1;
+    margin-top: 0;
+    pointer-events:auto;
+}
+.festival #dropdown a{
+    color:#FfF;
+}
+.festival #dropdown ul{
+    width:100%;
+    color:#FfF;
+    font-weight: 500;
+}
+.festival #dropdown li{
+    color:#FfF;
+    font-weight: 500;
 }
 .festival .navbar ul{
 	height: 48px;
 }
+.festival h2{
+    margin-bottom:35px;
+}
 
 .festival .center-section{
 	width: 100%;
-	height: 100vh;
-	padding: 300px;
+	padding: 100px 300px;
 }
 .festival .center-section h2{
 	text-align: center;
@@ -28,13 +65,16 @@ FESTIVAL PAGE!
 	margin-top:38px;
 }
 .festival .left-section{
+    color:#FfF;
 	padding:100px 50px;
 	width:50%;
 	height:300px;
 	float:left;
-	background-color: #e3e3e3;
+	background-color: #29C2D6;
 }
+
 .festival .right-section{
+    color:#FFF;
 	padding:100px 50px;
 	width:50%;
 	height:300px;
@@ -49,10 +89,12 @@ FESTIVAL PAGE!
     font-weight: 900;
 }
 
-#faq_block{
-    background-color:rgb(160, 180, 225);
+#faqs{
+    background-color:#FfF;
     width:100%; 
     display:inline-block;
+    padding: 40px 0;
+    text-align: center;
 }
 
 .faq_container{
@@ -63,22 +105,50 @@ FESTIVAL PAGE!
 }
 
 .faq{
-    background-color:rgb(255, 60, 50);
-    width:34%;
-    margin:30px;
+    /*background-color:#d05721;*/
+    width:35%;
+    margin:0.3% 1.2%;
     display:inline-block;
     cursor:pointer;
     text-align:left;
-    padding:30px;
+    padding:15px 30px;
     position:relative;
-    font-size:30px;
+    font-size:1em;
+    color:#000;
 }
-
+.faq:hover, .answer.expanding ~ .faq{
+    /*background-color:#3DBA34;*/
+}
+.question{
+    padding-right:50px;
+    padding-top:8px;
+    border-top:1px solid;
+    color:#d05721;
+}
 .answer{
-    transition:all 0.7s;
-    position:absolute; 
-    bottom:20px;
-    display:none;
+    transition:all 0.7s; 
+    top:0;
+    opacity: 0;
+    width:100%;
+    left:0;
+    display:block;
+    font-size: 0px;
+    margin-top:0;
+    color:#000;
+    /*height: 0;*/
+}
+.answer.expanding{
+   font-size:inherit;
+   margin-top:30px;
+}
+.answer.expanding + .right{
+    -webkit-transform:rotateZ(315deg);
+}
+.answer.visible{
+    opacity: 1;
+}
+.answer.hiding{
+    opacity: 0;
 }
 
 #triangle-up {
@@ -94,12 +164,13 @@ FESTIVAL PAGE!
 
 
 .arrow {
-    width:25px;
-    height:25px;
-    border-top:10px solid white;
-    border-right:10px solid white;
-    float:right;
-    margin-top:-60px;
+    width:10px;
+    height:10px;
+    border-top:2px solid #d05721;
+    border-right:2px solid #d05721;
+    position:absolute;
+    right:30px;
+    top:28px;
 }
 
 .right { 
