@@ -156,6 +156,29 @@ get_header(); ?>
 	</div><!-- #primary -->
 	<script type="text/javascript">
 	$('body').addClass('festival');
+
+	/*$('.faq').click(function(){
+		// $(this).children('.answer').toggleClass('open');
+		alert("CLICKED!!");
+	})*/
+
+	    var mouse_enter =  false;
+        var jab;
+        var clicks = 2;
+        $(".faq").click(function(){
+            clicks++;
+            if(clicks == 2){
+                //mouse_enter = false;
+                set_to_norm();
+            } else { 
+                if(clicks > 2 || clicks < 2){ 
+                    clicks = 1;
+                } 
+                jab = $(this);
+        
+                $(jab).css("padding-bottom", "200px"); 
+                $(jab).css("background-color", "rgb(225, 0, 0)");
+                $(jab).children(".arrow").css("transform", "rotateZ(315deg)");
     // var $faq;
     
     function close($target){
@@ -203,8 +226,7 @@ get_header(); ?>
         $('body').removeClass('noScroll')
     });
 
-
-	   // var mouse_enter =  false;
+	// var mouse_enter =  false;
     //     var jab;
     //     var clicks = 2;
     //     $(".faq").click(function(){
@@ -257,8 +279,6 @@ get_header(); ?>
     //     $(".faq").mouseenter(function(){
     //         mouse_enter = true;
     //     });
-
-
 	</script>
 
 <?php get_footer(); ?>
