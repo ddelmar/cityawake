@@ -90,7 +90,7 @@ get_header(); ?>
 		alert("CLICKED!!");
 	})*/
 
-	   var mouse_enter =  false;
+	    var mouse_enter =  false;
         var jab;
         var clicks = 2;
         $(".faq").click(function(){
@@ -143,8 +143,6 @@ get_header(); ?>
         $(".faq").mouseenter(function(){
             mouse_enter = true;
         });
-
-
 	</script>
 
 <?php get_footer(); ?>
