@@ -18,6 +18,12 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                    <!--  Overlay stuff -->
+                    <div id="overlay">
+                        <div id="modal">
+                            
+                        </div>
+                    </div>
 					
 					<div class="center-section" id="about">
     					<h2>About the Festival</h2>
@@ -30,64 +36,116 @@ get_header(); ?>
 					<div class="left-section" id="become_parters">
 						<h2>Become a Partner</h2>
 						<p>The pulse of the 2015 Festival depends upon our city’s social impact organizations and institutions. Learn more about how your organization can participate in our citywide Festival and become a part of Boston’s vibrant social impact movement</p>
-						<div class="button" data-section="volunteer"></div>
+						<div class="festivalbutton open-modal" data-section="volunteer" data-modal="partnermodal">
+                            <img src="/wp-content/themes/cityawake/images/hugs.png">
+                            Become a Partner                
+                        </div>
 					</div><!-- .entry-header -->
 
 					<div class="right-section">
 						<h2>Become a Volunteer</h2>
 						<p>City Awake is looking for wildly passionate volunteers with creativity and time to invest in organizing the 2015 Festival. From marketing mavens and tech gurus to partner champions and planning pros, learn more about all the ways you can join the City Awake Festival Team.</p>
-						<div class="button" data-section="volunteer"></div>
+						<div class="festivalbutton open-modal" data-section="volunteer" data-modal="volunteermodal">
+                            <img src="/wp-content/themes/cityawake/images/hand.png"> 
+                            Become a Volunteer                 
+                        </div>
 					</div><!-- .entry-content -->
-	<div id="faqs" >
-        <h2>FAQs</h2>
-      <div class="faq_container" >
-        <div class = "faq">
-            <div class="question">What types of events should I expect to see?</div>
-            <div class="answer" >There’s not a typical event at a City Awake Festival. Expect speakers, music, hackathons, happy hours, Brazilian jiu-jitsu, dancing, all on day one. We’re sure something will peak your interest. Events vary in topic, format, and location, with many happening simultaneously across the city – and did we mention that almost every event is free?</div>
-            <div class="arrow right"></div>
+                    <div class="center-section" id="for-partners">
+                        <h2>For Partners</h2>
+                        <p>Click on any of the questions below to learn more about being a partner of City Awake's 2015 Festival</p>
+                    </div>
+                     <div class="partner-question open-modal left-section tile-1" data-modal="coalitionmodal">
+                        <h4>City Awake's Coalition & Festival Partners</h4>
+                    </div>
+                    <div class="partner-question open-modal right-section tile-2" data-modal="submittingmodal">
+                        <h4>Submitting your event for the Festival</h4>
+                    </div>
+                     <div class="partner-question open-modal left-section tile-3" data-modal="datesmodal">
+                        <h4>Important Festival Dates & Deadlines</h4>
+                    </div>
+                     <div class="partner-question open-modal right-section tile-1" data-modal="resourcesmodal">
+                        <h4>Resources City Awake Can Provide</h4>
+                    </div>
+                     <div class="partner-question open-modal left-section tile-2" data-modal="participatemodal">
+                        <h4>How Your Oganization Can Participate</h4>
+                    </div>
+                     <div class="partner-question open-modal right-section tile-3" data-modal="freemodal">
+                        <h4>Psst…It’s free to be a partner!</h4>
+                    </div>
+                     <div class="partner-question open-modal left-section tile-1" data-modal="cityhallmodal">
+                        <h4>The City Hall Talks</h4>
+                    </div>
+                     <div class="partner-question open-modal right-section tile-2" data-modal="chargingmodal">
+                        <h4>Charging Admission for Your Event</h4>
+                    </div>
+                     <div class="partner-question open-modal left-section tile-3" data-modal="impactmodal">
+                        <h4>The Social Impact Expo</h4>
+                    </div>
+                     <div class="partner-question open-modal right-section tile-1" data-modal="wastemodal">
+                        <h4>Making your event zero-waste</h4>
+                    </div>
+
+
+
+                	<div id="faqs" >
+                        <h2>FAQs</h2>
+                        <div class="faq_container" >
+                        <div class = "faq">
+                            <div class="question">What types of events should I expect to see?</div>
+                            <div class="answer" >There’s not a typical event at a City Awake Festival. Expect speakers, music, hackathons, happy hours, Brazilian jiu-jitsu, dancing, all on day one. We’re sure something will peak your interest. Events vary in topic, format, and location, with many happening simultaneously across the city – and did we mention that almost every event is free?</div>
+                            <div class="arrow right"></div>
+                        </div>
+                        <div class = "faq">
+                            <div class="question">Where is the Festival?</div>
+                            <div class="answer" >The Festival is citywide! From Roxbury to Somerville, exciting organizations and initiatives are happening that you don’t want to miss!z</div>
+                            <div class="arrow right"></div>
+                        </div>
+                         <div class = "faq">
+                            <div class="question">How do I sign up for events?</div>
+                            <div class="answer" >Check back here in October to start building your Festival itinerary and register to attend events. </div>
+                            <div class="arrow right"></div>
+                        </div>
+                        <div class = "faq">
+                            <div class="question">Are festival events free?</div>
+                            <div class="answer" >Nearly 95% of events during the 2014 Festival were free, and we anticipate the same for this year. However, since the overwhelming majority of events are organized by partner organizations, we can only encourage them to make events affordable and accessible to the public (and they usually plan on that anyway!).</div>
+                            <div class="arrow right"></div>
+                        </div>
+                        
+                        <div class = "faq">
+                            <div class="question">Why a festival?</div>
+                            <div class="answer">Boston’s social impact community is excitingly diverse, from its leaders to the initiatives. In searching for an inclusive format that would complement the community’s identity, a festival emerged as the best vehicle to drive forward City Awake’s mission. With hundreds of organizations dedicating time to make this a reality, keep in mind that this is a festival after all, so let’s celebrate the changemakers and accomplishments of Boston’s social impact community! </div>
+                            <div class="arrow right"></div>
+                        </div>
+                        
+                        <div class = "faq">
+                            <div class="question">Who hosts events?</div>
+                            <div class="answer" >True to its form, this festival is a genuine grass-roots effort and illustrates the capabilities of our united community: all events taking place throughout the week are designed, implemented, and hosted by dedicated organizations, with the exception of a few City Awake-organized events in support of the social impact ecosystem.</div>
+                            <div class="arrow right"></div>
+                        </div>
+                        
+                        <div class = "faq">
+                            <div class="question">How can I get involved with the festival?</div>
+                            <div class="answer" >There are lots of ways! If you represent an organization, hop over to our “2015 Festival Partners” section to learn more, or visit us here to volunteer with the City Awake Festival team.</div>
+                            <div class="arrow right"></div>
+                        </div> 
+                        
+                        <div class = "faq">
+                            <div class="question">I still have questions; whom should I contact?</div>
+                            <div class="answer" >Reach out to festival@cityawake.is – we’d love to hear from you!</div>
+                            <div class="arrow right"></div>
+                        </div>
+                        
+                        
+                      </div>
+                    </div>
+
+    <div id="for-modal">
+        <div class=".partner">
+            <p>We’ve learned a lot in the past year, and we want to share some of those lessons with you! From marketing and communication strategies to tools and templates, your City Awake liaison will help you through the painless on-boarding process and provide resources from marketing and communication strategies to tools and templates to help you plan your organization’s Festival event.   
+            </p>
         </div>
-        <div class = "faq">
-            <div class="question">Where is the Festival?</div>
-            <div class="answer" >The Festival is citywide! From Roxbury to Somerville, exciting organizations and initiatives are happening that you don’t want to miss!z</div>
-            <div class="arrow right"></div>
-        </div>
-         <div class = "faq">
-            <div class="question">How do I sign up for events?</div>
-            <div class="answer" >Check back here in October to start building your Festival itinerary and register to attend events. </div>
-            <div class="arrow right"></div>
-        </div>
-        <div class = "faq">
-            <div class="question">Are festival events free?</div>
-            <div class="answer" >Nearly 95% of events during the 2014 Festival were free, and we anticipate the same for this year. However, since the overwhelming majority of events are organized by partner organizations, we can only encourage them to make events affordable and accessible to the public (and they usually plan on that anyway!).</div>
-            <div class="arrow right"></div>
-        </div>
-        
-        <div class = "faq">
-            <div class="question">Why a festival?</div>
-            <div class="answer">Boston’s social impact community is excitingly diverse, from its leaders to the initiatives. In searching for an inclusive format that would complement the community’s identity, a festival emerged as the best vehicle to drive forward City Awake’s mission. With hundreds of organizations dedicating time to make this a reality, keep in mind that this is a festival after all, so let’s celebrate the changemakers and accomplishments of Boston’s social impact community! </div>
-            <div class="arrow right"></div>
-        </div>
-        
-        <div class = "faq">
-            <div class="question">Who hosts events?</div>
-            <div class="answer" >True to its form, this festival is a genuine grass-roots effort and illustrates the capabilities of our united community: all events taking place throughout the week are designed, implemented, and hosted by dedicated organizations, with the exception of a few City Awake-organized events in support of the social impact ecosystem.</div>
-            <div class="arrow right"></div>
-        </div>
-        
-        <div class = "faq">
-            <div class="question">How can I get involved with the festival?</div>
-            <div class="answer" >There are lots of ways! If you represent an organization, hop over to our “2015 Festival Partners” section to learn more, or visit us here to volunteer with the City Awake Festival team.</div>
-            <div class="arrow right"></div>
-        </div> 
-        
-        <div class = "faq">
-            <div class="question">I still have questions; whom should I contact?</div>
-            <div class="answer" >Reach out to festival@cityawake.is – we’d love to hear from you!</div>
-            <div class="arrow right"></div>
-        </div>
-        
-        
-      </div>
+
+
     </div>
 			
 
@@ -130,7 +188,21 @@ get_header(); ?>
             //alert($faq.attr('class'));
             open();
         }
-	})
+	});
+    //STUFF FOR MODALS 
+    $('.open-modal').click(function(){
+        $this = $(this);
+        //open the modal
+        $('#overlay').addClass('visible');
+        $('body').addClass('noScroll');
+        $modalLocation = "/wp-content/themes/cityawake/modals.html #" + $this.data("modal");
+        $('#modal').load($modalLocation);
+    });
+    $('#overlay').click(function(){
+        $(this).removeClass('visible');
+        $('body').removeClass('noScroll')
+    });
+
 
 	   // var mouse_enter =  false;
     //     var jab;

@@ -3,9 +3,37 @@
 FESTIVAL PAGE!
 ==============
 */
+body.noScroll{
+    overflow-y:hidden;
+}
 *{
     transition:all 0.5s;
     -webkit-transition:all 0.5s;
+}
+.festival #overlay{
+    position: fixed;
+    background-color: rgba(0,0,0,.69);
+    opacity: 1;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    display:none;
+}
+.festival #overlay.visible{
+    display: block;
+}
+.festival #overlay #modal{
+    width:75%;
+    height: 75%;
+    background-color: #FfF;
+    margin: 7% auto 0 auto;
+    padding:4%;
+    overflow-y:scroll;
+
+}
+#for-modal{
+    display:none;
 }
 
 .festival #festival-nav{
@@ -66,29 +94,76 @@ FESTIVAL PAGE!
 }
 .festival .left-section{
     color:#FfF;
-	padding:100px 50px;
+	padding: 50px;
 	width:50%;
-	height:300px;
 	float:left;
 	background-color: #29C2D6;
 }
 
 .festival .right-section{
     color:#FFF;
-	padding:100px 50px;
+	padding:50px;
 	width:50%;
-	height:300px;
 	float:right;
 	background-color: #333333;
 }
-
-#header{
-    text-align:center;
-    margin-top:50px;
-    font-size: 50px !important;
-    font-weight: 900;
+.festivalbutton{
+    height:50px;
+    width:200px;
+    background-color: #FfF;
+    margin: 20px auto 0 auto;
+    border-radius: 6px;
+    padding:13px;
+    text-align: center;
+    color:#000;
+    cursor:pointer;
+}
+.festivalbutton:hover{
+    background-color: #e0e0e0;
+}
+.festivalbutton img{
+    height: 95%;
+    width:auto;
+    margin:0 auto;
 }
 
+#for-partners{
+    color:#FfF;
+    background-color: #d05721;
+
+}
+.partner-question.left-section, .partner-question.right-section{
+    padding:75px 50px;
+    cursor:pointer;
+
+}
+.partner-question.left-section{
+    
+}
+.partner-question.left-section h4{
+    text-align: right;
+}
+.partner-question.right-section{
+    float: right;
+}
+.partner-question.tile-1{
+    background-color: #D14D21;
+}
+.partner-question.tile-2{
+    background-color: #D16421;
+}
+.partner-question.tile-3{
+    background-color: #d05721;
+}
+.partner-question.tile-1:hover{
+    background-color: #FF5E28;
+}
+.partner-question.tile-2:hover{
+    background-color: #FF6C28;
+}
+.partner-question.tile-3:hover{
+    background-color: #FF7A28;
+}
 #faqs{
     background-color:#FfF;
     width:100%; 
@@ -134,14 +209,14 @@ FESTIVAL PAGE!
     display:block;
     font-size: 0px;
     margin-top:0;
-    color:#000;
+    color:#333;
     /*height: 0;*/
 }
 .answer.expanding{
    font-size:inherit;
    margin-top:30px;
 }
-.answer.expanding + .right{
+.answer.expanding + .arrow{
     -webkit-transform:rotateZ(315deg);
 }
 .answer.visible{
@@ -171,8 +246,6 @@ FESTIVAL PAGE!
     position:absolute;
     right:30px;
     top:28px;
-}
-
-.right { 
     -webkit-transform:rotateZ(135deg);
 }
+
