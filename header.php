@@ -78,14 +78,24 @@
 					</a>
 					<ul>
 						<li><a href="/programs" class="nav" id="accelerate">Programs</a></li>
-						<li id="festival-nav"><a href="/festival" class="nav" >Festival</a></li>
+						<li id="festival-nav">
+						<a href="/festival" class="nav" >Festival</a>
+						<div id="dropdown">
+							<ul>
+								<li><a href="#about">About</a></li>
+								<li><a href="#partners">Get Involved</a></li>
+								<li><a href="#partners">Partners</a></li>
+								<li><a href="#faqs">FAQs</a></li>
+							</ul>
+						</div>
+						</li>
 						<li><a href="/blog" class="nav" >Blog</a></li>
 						<li><a href="/team" class="nav" >Team</a></li>
 
 					</ul>
 				</nav>
 			</div>
-
+			
 
 			<h1>
 				<?php the_title(); ?>
