@@ -4,10 +4,51 @@
  */
 
 get_header(); ?>
-	<link href="/firstsite3/wp-content/themes/cityawake/style_cityawake.css" rel="stylesheet" />
-	<link href="/firstsite3/wp-content/themes/cityawake/festival.css" rel="stylesheet" />
+	<link href="/cityawake/wp-content/themes/cityawake/style_cityawake.css" rel="stylesheet" />
 	<script src="https://code.jquery.com/jquery-3.0.0-alpha1.js"></script>
 	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<?php
+/*
+===============
+BEGIN SLIDESHOW
+===============
+*/
+?>
+<!-- it works the same with all jquery version from 1.x to 2.x -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<!-- use jssor.slider.mini.js (40KB) instead for release -->
+<!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
+<script type="text/javascript" src="/cityawake/wp-content/themes/cityawake/js/slider/jssor.js"></script>
+<script type="text/javascript" src="/cityawake/wp-content/themes/cityawake/js/slider/jssor.slider.js"></script>
+<script type="text/javascript" src="/cityawake/wp-content/themes/cityawake/js/slider/jssor.customization.js"></script>
+<link href="cityawake/wp-content/themes/cityawake/css/jssor-slider.css" rel="stylesheet" />
+<!-- Jssor Slider Begin -->
+<!-- To move inline styles to css file/block, please specify a class name for each element. -->
+
+<div id="slider1_container" style="position: relative; margin: 0 auto;
+        top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; background-image: url('/wp-content/themes/cityawake/images/headers/cityscape.jpg')">
+        <!-- Slides Container -->
+<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px;
+            height: 500px; overflow: hidden;">
+            <div>
+              <a href="/festival" title="City Awake Festival">
+                <img u="image" src="/cityawake/wp-content/themes/cityawake/images/slider1.svg" />
+                <div class="festivalbutton" id="attendbutton"> Join Us!</div>
+              </a>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Jssor Slider End -->
+
+<?php
+/*
+===============
+END SLIDESHOW
+===============
+*/
+?>
 
 	<!-- ADDS FESTIVAL CLASS TO BODY -->
 
@@ -33,10 +74,10 @@ get_header(); ?>
                         <p>True to its form, this festival is a genuine grass-roots effort and illustrates the capabilities of our united community: events, which will vary in topic, format, and location, with many happening simultaneously across the city, will be open to the public and designed, implemented, and hosted by the dedicated partners. While it is a celebration of the achievements of the entire for-impact community, the festival also marks the chance for reflection and future planning. Join us in solidifying Boston’s position as an impact ecosystem hub: one that leverages its constituents’ diverse expertise & networks to tackle the world’s most challenging problems.
                         </p>
 					</div>
-					<div class="left-section" id="become_parters">
+					<div class="left-section" id="become_partners">
 						<h2>Become a Partner</h2>
 						<p>The pulse of the 2015 Festival depends upon our city’s social impact organizations and institutions. Learn more about how your organization can participate in our citywide Festival and become a part of Boston’s vibrant social impact movement</p>
-						<div class="festivalbutton open-modal" data-section="volunteer" data-modal="partnermodal">
+						<div class="festivalbutton open-modal" data-section="volunteer" data-modal="participatemodal">
                             <img src="/wp-content/themes/cityawake/images/hugs.png">
                             Become a Partner                
                         </div>
@@ -52,7 +93,6 @@ get_header(); ?>
 					</div><!-- .entry-content -->
                     <div class="center-section" id="for-partners">
                         <h2>For Partners</h2>
-                        <p>Click on any of the questions below to learn more about being a partner of City Awake's 2015 Festival</p>
                     </div>
                      <div class="partner-question open-modal left-section tile-1" data-modal="coalitionmodal">
                         <h4>City Awake's Coalition & Festival Partners</h4>
@@ -83,6 +123,10 @@ get_header(); ?>
                     </div>
                      <div class="partner-question open-modal right-section tile-1" data-modal="wastemodal">
                         <h4>Making your event zero-waste</h4>
+                    </div>
+
+                    <div class="center-section" id="attend-section">
+                        <a class="festivalbutton" href="" target"_blank">Register Your Organization's Event for the 2015 Festival!</a>
                     </div>
 
 
@@ -134,6 +178,7 @@ get_header(); ?>
                             <div class="answer" >Reach out to festival@cityawake.is – we’d love to hear from you!</div>
                             <div class="arrow right"></div>
                         </div>
+
                         
                         
                       </div>
@@ -157,30 +202,6 @@ get_header(); ?>
 	<script type="text/javascript">
 	$('body').addClass('festival');
 
-	/*$('.faq').click(function(){
-		// $(this).children('.answer').toggleClass('open');
-		alert("CLICKED!!");
-	})*/
-
-	    var mouse_enter =  false;
-        var jab;
-        var clicks = 2;
-        $(".faq").click(function(){
-            clicks++;
-            if(clicks == 2){
-                //mouse_enter = false;
-                set_to_norm();
-            } else { 
-                if(clicks > 2 || clicks < 2){ 
-                    clicks = 1;
-                } 
-                jab = $(this);
-        
-                $(jab).css("padding-bottom", "200px"); 
-                $(jab).css("background-color", "rgb(225, 0, 0)");
-                $(jab).children(".arrow").css("transform", "rotateZ(315deg)");
-    // var $faq;
-    
     function close($target){
         $target.toggleClass('hiding');
         window.setTimeout(function(){
@@ -188,7 +209,7 @@ get_header(); ?>
             $target.toggleClass('expanding');
             $target.toggleClass('hiding');
         }, 800);
-    }
+    };
     function open(){
         // close($('.answer'));
         $('.answer').each(function(){
@@ -201,7 +222,7 @@ get_header(); ?>
         window.setTimeout(function(){
             $faq.toggleClass('visible');
         }, 800);
-    }
+    };
 
 	$('.faq').click(function(){
         $faq = $(this).children('.answer');
@@ -215,70 +236,15 @@ get_header(); ?>
     //STUFF FOR MODALS 
     $('.open-modal').click(function(){
         $this = $(this);
-        //open the modal
         $('#overlay').addClass('visible');
-        $('body').addClass('noScroll');
-        $modalLocation = "/wp-content/themes/cityawake/modals.html #" + $this.data("modal");
+        $('html').addClass('noScroll');
+        $modalLocation = "cityawake/wp-content/themes/cityawake/modals.html #" + $this.data("modal");
         $('#modal').load($modalLocation);
     });
     $('#overlay').click(function(){
         $(this).removeClass('visible');
-        $('body').removeClass('noScroll')
+        $('html').removeClass('noScroll');
     });
-
-	// var mouse_enter =  false;
-    //     var jab;
-    //     var clicks = 2;
-    //     $(".faq").click(function(){
-    //         clicks++;
-    //         if(clicks == 2){
-    //             //mouse_enter = false;
-    //             set_to_norm();
-    //         } else { 
-    //             if(clicks > 2 || clicks < 2){ 
-    //                 clicks = 1;
-    //             } 
-    //             jab = $(this);
-        
-    //             $(jab).css("padding-bottom", "100px"); 
-    //             $(jab).css("background-color", "rgb(225, 0, 0)");
-    //             $(jab).children(".arrow").css("transform", "rotateZ(315deg)");
-        
-    //             window.setTimeout(function(){
-    //                 if(mouse_enter === true || clicks == 2){
-    //                     $(jab).children(".answer").css("display", "block");
-    //                 }
-    //             }, 1000);
-    //         }
-    //     });
-
-    //     function set_to_norm(){
-    //         $(jab).css("padding-bottom", "30px");
-    //         $(jab).css("background-color", "rgb(255, 60, 50)");
-
-    //         $(jab).children(".answer").css("display", "none");
-    //         $(jab).children(".arrow").css("transform", "rotateZ(135deg)");
-
-    //         //Fix for abnormalities
-    //         window.setTimeout(function(){
-    //             $(jab).children(".answer").css("display", "none");
-    //         }, 1000);
-    //     }
-
-    //     $(".faq").mouseleave(function(){
-    //         clicks++;
-    //         mouse_enter = false;
-    //     });
-
-    //     window.setInterval(function(){
-    //         if(mouse_enter === false){
-    //         set_to_norm();
-    //     }
-    //     }, 10);
-
-    //     $(".faq").mouseenter(function(){
-    //         mouse_enter = true;
-    //     });
 	</script>
 
 <?php get_footer(); ?>

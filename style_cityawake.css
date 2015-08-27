@@ -1898,6 +1898,11 @@ footer .site-info {
   padding-top: 30px;
 }
 
+.footerstuff{
+	margin-bottom: 15px;
+	text-align: center;
+}
+
 .site-info { text-align: left; }
 
 .hs-form input:not([type=image]), .hs-form textarea {

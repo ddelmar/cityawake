@@ -3,7 +3,7 @@
 FESTIVAL PAGE!
 ==============
 */
-body.noScroll{
+html.noScroll{
     overflow-y:hidden;
 }
 *{
@@ -19,6 +19,7 @@ body.noScroll{
     left: 0;
     right: 0;
     display:none;
+    z-index: 69;
 }
 .festival #overlay.visible{
     display: block;
@@ -35,6 +36,9 @@ body.noScroll{
 #for-modal{
     display:none;
 }
+.festival #masthead{
+    height: 0;
+}
 
 .festival #festival-nav{
 	background-color: #d05721;
@@ -46,8 +50,9 @@ body.noScroll{
 .festival #festival-nav a{
     width:100%;
     height: 42px;
+    color:#FfF;
 }
-.festival #dropdown{
+#dropdown{
     background-color: #d05721;
     height:150px;
     width:123px;
@@ -63,28 +68,37 @@ body.noScroll{
     margin-top: 0;
     pointer-events:auto;
 }
-.festival #dropdown a{
+#dropdown a{
     color:#FfF;
 }
-.festival #dropdown ul{
+#dropdown ul{
     width:100%;
     color:#FfF;
     font-weight: 500;
 }
-.festival #dropdown li{
+#dropdown li{
     color:#FfF;
     font-weight: 500;
 }
 .festival .navbar ul{
 	height: 48px;
 }
+
+#attendbutton{
+    background-color: #d05721;
+    color:#FfF;
+    font-weight: 700;
+    margin-top: 25%;
+}
+
 .festival h2{
     margin-bottom:35px;
 }
 
 .festival .center-section{
 	width: 100%;
-	padding: 100px 300px;
+	padding: 50px 300px;
+    float:left;
 }
 .festival .center-section h2{
 	text-align: center;
@@ -94,7 +108,7 @@ body.noScroll{
 }
 .festival .left-section{
     color:#FfF;
-	padding: 50px;
+	padding:50px;
 	width:50%;
 	float:left;
 	background-color: #29C2D6;
@@ -105,9 +119,9 @@ body.noScroll{
 	padding:50px;
 	width:50%;
 	float:right;
-	background-color: #333333;
+	background-color: #6D6D6D;
 }
-.festivalbutton{
+.festivalbutton, a.festivalbutton{
     height:50px;
     width:200px;
     background-color: #FfF;
@@ -121,7 +135,7 @@ body.noScroll{
 .festivalbutton:hover{
     background-color: #e0e0e0;
 }
-.festivalbutton img{
+.festivalbutton img, a.festivalbutton img{
     height: 95%;
     width:auto;
     margin:0 auto;
@@ -129,8 +143,11 @@ body.noScroll{
 
 #for-partners{
     color:#FfF;
-    background-color: #d05721;
-
+    background-color: #333333;
+    padding:50px;
+}
+#for-partners h2{
+    margin-bottom: 0;
 }
 .partner-question.left-section, .partner-question.right-section{
     padding:75px 50px;
@@ -164,6 +181,13 @@ body.noScroll{
 .partner-question.tile-3:hover{
     background-color: #FF7A28;
 }
+#attend-section{
+    background-color: #D16421;
+    text-align: center;
+}
+
+
+
 #faqs{
     background-color:#FfF;
     width:100%; 
@@ -177,6 +201,7 @@ body.noScroll{
     margin-top:-20px;
     margin-bottom:40px;
     text-align:center;
+    z-index: 0;
 }
 
 .faq{
