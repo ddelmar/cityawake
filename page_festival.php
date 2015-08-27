@@ -4,7 +4,7 @@
  */
 
 get_header(); ?>
-	<link href="/cityawake/wp-content/themes/cityawake/style_cityawake.css" rel="stylesheet" />
+	<link href="/wp-content/themes/cityawake/style_cityawake.css" rel="stylesheet" />
 	<script src="https://code.jquery.com/jquery-3.0.0-alpha1.js"></script>
 	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <?php
@@ -18,10 +18,10 @@ BEGIN SLIDESHOW
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <!-- use jssor.slider.mini.js (40KB) instead for release -->
 <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
-<script type="text/javascript" src="/cityawake/wp-content/themes/cityawake/js/slider/jssor.js"></script>
-<script type="text/javascript" src="/cityawake/wp-content/themes/cityawake/js/slider/jssor.slider.js"></script>
-<script type="text/javascript" src="/cityawake/wp-content/themes/cityawake/js/slider/jssor.customization.js"></script>
-<link href="cityawake/wp-content/themes/cityawake/css/jssor-slider.css" rel="stylesheet" />
+<script type="text/javascript" src="/wp-content/themes/cityawake/js/slider/jssor.js"></script>
+<script type="text/javascript" src="/wp-content/themes/cityawake/js/slider/jssor.slider.js"></script>
+<script type="text/javascript" src="/wp-content/themes/cityawake/js/slider/jssor.customization.js"></script>
+<link href="/wp-content/themes/cityawake/css/jssor-slider.css" rel="stylesheet" />
 <!-- Jssor Slider Begin -->
 <!-- To move inline styles to css file/block, please specify a class name for each element. -->
 
@@ -32,7 +32,7 @@ BEGIN SLIDESHOW
             height: 500px; overflow: hidden;">
             <div>
               <a href="/festival" title="City Awake Festival">
-                <img u="image" src="/cityawake/wp-content/themes/cityawake/images/slider1.svg" />
+                <img u="image" src="/wp-content/themes/cityawake/images/slider1.svg" />
                 <div class="festivalbutton" id="attendbutton"> Join Us!</div>
               </a>
             </div>
@@ -129,8 +129,6 @@ END SLIDESHOW
                         <a class="festivalbutton" href="" target"_blank">Register Your Organization's Event for the 2015 Festival!</a>
                     </div>
 
-
-
                 	<div id="faqs" >
                         <h2>FAQs</h2>
                         <div class="faq_container" >
@@ -189,8 +187,6 @@ END SLIDESHOW
             <p>We’ve learned a lot in the past year, and we want to share some of those lessons with you! From marketing and communication strategies to tools and templates, your City Awake liaison will help you through the painless on-boarding process and provide resources from marketing and communication strategies to tools and templates to help you plan your organization’s Festival event.   
             </p>
         </div>
-
-
     </div>
 			
 
@@ -238,7 +234,7 @@ END SLIDESHOW
         $this = $(this);
         $('#overlay').addClass('visible');
         $('html').addClass('noScroll');
-        $modalLocation = "cityawake/wp-content/themes/cityawake/modals.html #" + $this.data("modal");
+        $modalLocation = "/wp-content/themes/cityawake/modals.html #" + $this.data("modal");
         $('#modal').load($modalLocation);
     });
     $('#overlay').click(function(){

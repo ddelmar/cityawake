@@ -28,13 +28,13 @@
 		</title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link rel="shortcut icon" href="cityawake/wp-content/themes/cityawake/images/favicon.png" />
+	<link rel="shortcut icon" href="/wp-content/themes/cityawake/images/favicon.png" />
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-	<link href="cityawake/wp-content/themes/cityawake/style_cityawake.css" rel="stylesheet" />
-	<link href="cityawake/wp-content/themes/cityawake/festival.css" rel="stylesheet" />
+	<link href="/wp-content/themes/cityawake/style_cityawake.css" rel="stylesheet" />
+	<link href="/wp-content/themes/cityawake/festival.css" rel="stylesheet" />
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -74,7 +74,7 @@
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
 					<a href="/" id="logo" >
-						<img src="cityawake/wp-content/themes/cityawake/images/cityawake.png" />
+						<img src="/wp-content/themes/cityawake/images/cityawake.png" />
 					</a>
 					<ul>
 						<li><a href="/programs" class="nav" id="accelerate">Programs</a></li>
