@@ -97,7 +97,7 @@ html.noScroll{
 
 .festival .center-section{
 	width: 100%;
-	padding: 50px 300px;
+	padding: 50px 20%;
     float:left;
 }
 .festival .center-section h2{
@@ -105,6 +105,10 @@ html.noScroll{
 }
 .festival .center-section p{
 	margin-top:38px;
+}
+#middle-section{
+    padding: 0;
+    background-color: #29C2D6;
 }
 .festival .left-section{
     color:#FfF;
@@ -122,18 +126,22 @@ html.noScroll{
 	background-color: #6D6D6D;
 }
 .festivalbutton, a.festivalbutton{
-    height:50px;
     width:200px;
     background-color: #FfF;
     margin: 20px auto 0 auto;
     border-radius: 6px;
     padding:13px;
     text-align: center;
-    color:#000;
+    color:#333;
     cursor:pointer;
+    display:block;
 }
-.festivalbutton:hover{
+#main a.festivalbutton p{
+    margin-top: 0;
+}
+.festivalbutton:hover, #main a.festivalbutton:hover{
     background-color: #e0e0e0;
+    color:#333;
 }
 .festivalbutton img, a.festivalbutton img{
     height: 95%;
@@ -149,7 +157,7 @@ html.noScroll{
 #for-partners h2{
     margin-bottom: 0;
 }
-.partner-question.left-section, .partner-question.right-section{
+.partner-question{
     padding:75px 50px;
     cursor:pointer;
 
@@ -211,10 +219,10 @@ html.noScroll{
     display:inline-block;
     cursor:pointer;
     text-align:left;
-    padding:15px 30px;
+    padding:15px 2%;
     position:relative;
     font-size:1em;
-    color:#000;
+    color:#333;
 }
 .faq:hover, .answer.expanding ~ .faq{
     /*background-color:#3DBA34;*/
@@ -273,4 +281,36 @@ html.noScroll{
     top:28px;
     -webkit-transform:rotateZ(135deg);
 }
+@media (max-width: 643px){
+    .festival .center-section{
+        width: 100%;
+        padding: 10px 10px;
+        float:left;
+    }   
+    #attend-section{
+        padding:70px;
+    }
+    .festival .left-section{
+        width:100%;
+        float:left;
+    }
 
+    .festival .right-section{
+        color:#FFF;
+        padding:50px;
+        width:100%;
+        float:left;
+    }
+    .partner-question{
+        float: left;
+        text-align: center;
+        padding:20px;
+    }
+    .partner-question.left-section h4, .partner-question.right-section h4{
+        text-align: center;
+    }
+    .festival article:first-of-type{
+        padding:0;
+    }
+}
+}

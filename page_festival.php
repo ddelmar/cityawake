@@ -31,7 +31,7 @@ BEGIN SLIDESHOW
 <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px;
             height: 500px; overflow: hidden;">
             <div>
-              <a href="/festival" title="City Awake Festival">
+              <a href="https://www.eventbrite.com/e/city-awake-festival-2015-partner-open-house-tickets-18348324332" title="City Awake Festival" target="_blank">
                 <img u="image" src="/wp-content/themes/cityawake/images/slider1.svg" />
                 <div class="festivalbutton" id="attendbutton"> Join Us!</div>
               </a>
@@ -74,23 +74,25 @@ END SLIDESHOW
                         <p>True to its form, this festival is a genuine grass-roots effort and illustrates the capabilities of our united community: events, which will vary in topic, format, and location, with many happening simultaneously across the city, will be open to the public and designed, implemented, and hosted by the dedicated partners. While it is a celebration of the achievements of the entire for-impact community, the festival also marks the chance for reflection and future planning. Join us in solidifying Boston’s position as an impact ecosystem hub: one that leverages its constituents’ diverse expertise & networks to tackle the world’s most challenging problems.
                         </p>
 					</div>
-					<div class="left-section" id="become_partners">
-						<h2>Become a Partner</h2>
-						<p>The pulse of the 2015 Festival depends upon our city’s social impact organizations and institutions. Learn more about how your organization can participate in our citywide Festival and become a part of Boston’s vibrant social impact movement</p>
-						<div class="festivalbutton open-modal" data-section="volunteer" data-modal="participatemodal">
-                            <img src="/wp-content/themes/cityawake/images/hugs.png">
-                            Become a Partner                
-                        </div>
-					</div><!-- .entry-header -->
+                    <div class="center-section" id="middle-section">
+    					<div class="left-section" id="become_partners">
+    						<h2>Become a Partner</h2>
+    						<p>The pulse of the 2015 Festival depends upon our city’s social impact organizations and institutions. Learn more about how your organization can participate in our citywide Festival and become a part of Boston’s vibrant social impact movement</p>
+    						<div class="festivalbutton open-modal" data-section="volunteer" data-modal="participatemodal">
+                               
+                                Become a Partner                
+                            </div>
+    					</div><!-- .entry-header -->
 
-					<div class="right-section">
-						<h2>Become a Volunteer</h2>
-						<p>City Awake is looking for wildly passionate volunteers with creativity and time to invest in organizing the 2015 Festival. From marketing mavens and tech gurus to partner champions and planning pros, learn more about all the ways you can join the City Awake Festival Team.</p>
-						<div class="festivalbutton open-modal" data-section="volunteer" data-modal="volunteermodal">
-                            <img src="/wp-content/themes/cityawake/images/hand.png"> 
-                            Become a Volunteer                 
-                        </div>
-					</div><!-- .entry-content -->
+    					<div class="right-section">
+    						<h2>Become a Volunteer</h2>
+    						<p>City Awake is looking for wildly passionate volunteers with creativity and time to invest in organizing the 2015 Festival. From marketing mavens and tech gurus to partner champions and planning pros, learn more about all the ways you can join the City Awake Festival Team.</p>
+    						<a class="festivalbutton" href="https://festivalteam.typeform.com/to/itBQcK" data-section="volunteer" data-modal="volunteermodal">
+                               
+                                Become a Volunteer                 
+                            </a>
+    					</div><!-- .entry-content -->
+                    </div>
                     <div class="center-section" id="for-partners">
                         <h2>For Partners</h2>
                     </div>
@@ -126,7 +128,7 @@ END SLIDESHOW
                     </div>
 
                     <div class="center-section" id="attend-section">
-                        <a class="festivalbutton" href="" target"_blank">Register Your Organization's Event for the 2015 Festival!</a>
+                        <a class="festivalbutton" href="https://www.eventbrite.com/e/city-awake-festival-2015-partner-open-house-tickets-18348324332" target"_blank"><p>Register Your Organization's Event for the 2015 Festival!</p></a>
                     </div>
 
                 	<div id="faqs" >
