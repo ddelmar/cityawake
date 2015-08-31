@@ -79,13 +79,13 @@
 					<ul>
 						<li><a href="/programs" class="nav" id="accelerate">Programs</a></li>
 						<li id="festival-nav">
-						<a href="/festival" class="nav" >Festival</a>
+						<a href="/festival" class="nav" >Festival<div class="nav-arrow"></div></a>
 						<div id="dropdown">
 							<ul>
 								<li><a href="#about">About</a></li>
 								<li><a href="#become_partners">Get Involved</a></li>
-								<li><a href="#for-partners">For Partners</a></li>
 								<li><a href="#faqs">FAQs</a></li>
+								<li><a href="#for-partners">For Partners </a></li>
 							</ul>
 						</div>
 						</li>

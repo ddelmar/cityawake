@@ -32,8 +32,8 @@ BEGIN SLIDESHOW
             height: 500px; overflow: hidden;">
             <div>
               <a href="https://www.eventbrite.com/e/city-awake-festival-2015-partner-open-house-tickets-18348324332" title="City Awake Festival" target="_blank">
-                <img u="image" src="/wp-content/themes/cityawake/images/slider1.svg" />
-                <div class="festivalbutton" id="attendbutton"> Join Us!</div>
+                <img u="image" src="/wp-content/themes/cityawake/images/Festival2015Logo_withdate.png" />
+                <div class="festivalbutton" id="attendbutton"> <p>Join Our Next Open House</p></div>
               </a>
             </div>
 
@@ -50,9 +50,9 @@ END SLIDESHOW
 */
 ?>
 
-	<!-- ADDS FESTIVAL CLASS TO BODY -->
+	
 
-	<div id="primary" class="content-area festival">
+	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
 			<?php /* The loop */ ?>
@@ -77,62 +77,25 @@ END SLIDESHOW
                     <div class="center-section" id="middle-section">
     					<div class="left-section" id="become_partners">
     						<h2>Become a Partner</h2>
-    						<p>The pulse of the 2015 Festival depends upon our city’s social impact organizations and institutions. Learn more about how your organization can participate in our citywide Festival and become a part of Boston’s vibrant social impact movement</p>
-    						<div class="festivalbutton open-modal" data-section="volunteer" data-modal="participatemodal">
+    						<p>Learn more about how your organization can participate in our citywide Festival and become a part of Boston's vibrant social impact movement now.</p>
+    						<a class="festivalbutton" href="#for-partners" data-section="volunteer">
                                
-                                Become a Partner                
-                            </div>
+                                Learn More                
+                            </a>
     					</div><!-- .entry-header -->
 
     					<div class="right-section">
     						<h2>Become a Volunteer</h2>
-    						<p>City Awake is looking for wildly passionate volunteers with creativity and time to invest in organizing the 2015 Festival. From marketing mavens and tech gurus to partner champions and planning pros, learn more about all the ways you can join the City Awake Festival Team.</p>
-    						<a class="festivalbutton" href="https://festivalteam.typeform.com/to/itBQcK" data-section="volunteer" data-modal="volunteermodal">
+    						<p>From marketing mavens and tech gurus to partner champions and planning pros, we are looking for wildly passionate volunteers to help organize the 2015 Festival.</p>
+    						<a class="festivalbutton" href="https://festivalteam.typeform.com/to/sUPynI" target="_blank" data-section="volunteer" data-modal="volunteermodal">
                                
-                                Become a Volunteer                 
+                                Sign up now                 
                             </a>
     					</div><!-- .entry-content -->
                     </div>
-                    <div class="center-section" id="for-partners">
-                        <h2>For Partners</h2>
-                    </div>
-                     <div class="partner-question open-modal left-section tile-1" data-modal="coalitionmodal">
-                        <h4>City Awake's Coalition & Festival Partners</h4>
-                    </div>
-                    <div class="partner-question open-modal right-section tile-2" data-modal="submittingmodal">
-                        <h4>Submitting your event for the Festival</h4>
-                    </div>
-                     <div class="partner-question open-modal left-section tile-3" data-modal="datesmodal">
-                        <h4>Important Festival Dates & Deadlines</h4>
-                    </div>
-                     <div class="partner-question open-modal right-section tile-1" data-modal="resourcesmodal">
-                        <h4>Resources City Awake Can Provide</h4>
-                    </div>
-                     <div class="partner-question open-modal left-section tile-2" data-modal="participatemodal">
-                        <h4>How Your Oganization Can Participate</h4>
-                    </div>
-                     <div class="partner-question open-modal right-section tile-3" data-modal="freemodal">
-                        <h4>Psst…It’s free to be a partner!</h4>
-                    </div>
-                     <div class="partner-question open-modal left-section tile-1" data-modal="cityhallmodal">
-                        <h4>The City Hall Talks</h4>
-                    </div>
-                     <div class="partner-question open-modal right-section tile-2" data-modal="chargingmodal">
-                        <h4>Charging Admission for Your Event</h4>
-                    </div>
-                     <div class="partner-question open-modal left-section tile-3" data-modal="impactmodal">
-                        <h4>The Social Impact Expo</h4>
-                    </div>
-                     <div class="partner-question open-modal right-section tile-1" data-modal="wastemodal">
-                        <h4>Making your event zero-waste</h4>
-                    </div>
-
-                    <div class="center-section" id="attend-section">
-                        <a class="festivalbutton" href="https://www.eventbrite.com/e/city-awake-festival-2015-partner-open-house-tickets-18348324332" target"_blank"><p>Register Your Organization's Event for the 2015 Festival!</p></a>
-                    </div>
-
+                    
                 	<div id="faqs" >
-                        <h2>FAQs</h2>
+                        <h2>2015 Festival FAQs</h2>
                         <div class="faq_container" >
                         <div class = "faq">
                             <div class="question">What types of events should I expect to see?</div>
@@ -178,11 +141,56 @@ END SLIDESHOW
                             <div class="answer" >Reach out to festival@cityawake.is – we’d love to hear from you!</div>
                             <div class="arrow right"></div>
                         </div>
-
-                        
-                        
                       </div>
                     </div>
+
+                    <div class="center-section" id="for-partners">
+                        <h2>Learn more about becoming a 2015 Festival Partner</h2>
+                    </div>
+                    <!-- <div class="center-section partner-section"> -->
+                        <div class="partner-question open-modal left-section tile-1" data-modal="coalitionmodal">
+                            <h4>City Awake's Coalition & Festival Partners</h4>
+                        </div>
+                        <div class="partner-question open-modal right-section tile-2" data-modal="submittingmodal">
+                            <h4>Submitting your event for the Festival</h4>
+                        </div>
+                    <!-- </div> -->
+                    <!--<div class="center-section partner-section"-->
+                        <div class="partner-question open-modal left-section tile-2" data-modal="datesmodal">
+                            <h4>Important Festival Dates & Deadlines</h4>
+                        </div>
+                        <div class="partner-question open-modal right-section tile-1" data-modal="resourcesmodal">
+                            <h4>Resources City Awake Can Provide</h4>
+                        </div>
+                   <!--</div>-->
+                    <!--<div class="center-section partner-section">-->
+                        <div class="partner-question open-modal left-section tile-1" data-modal="participatemodal">
+                            <h4>How Your Organization Can Participate</h4>
+                        </div>
+                        <div class="partner-question open-modal right-section tile-2" data-modal="freemodal">
+                            <h4>Psst…It’s free to be a partner!</h4>
+                        </div>
+                    <!--</div>-->
+                    <!--<div class="center-section partner-section">-->
+                        <div class="partner-question open-modal left-section tile-2" data-modal="cityhallmodal">
+                            <h4>The City Hall Talks</h4>
+                        </div>
+                        <div class="partner-question open-modal right-section tile-1" data-modal="chargingmodal">
+                            <h4>Charging Admission for Your Event</h4>
+                        </div>
+                    <!--</div>-->
+                    <!--<div class="center-section partner-section">-->
+                        <div class="partner-question open-modal left-section tile-1" data-modal="impactmodal">
+                            <h4>The Social Impact Expo</h4>
+                        </div>
+                        <div class="partner-question open-modal right-section tile-2" data-modal="wastemodal">
+                            <h4>Making your event zero-waste</h4>
+                        </div>
+                    <!--</div>-->
+                    <div class="center-section" id="attend-section">
+                        <a class="festivalbutton" href=" https://festivalteam.typeform.com/to/XkEjfz" target"_blank"><p>Register Your Organization for the 2015 Festival!</p></a>
+                    </div>
+
 
     <div id="for-modal">
         <div class=".partner">
@@ -243,6 +251,12 @@ END SLIDESHOW
         $(this).removeClass('visible');
         $('html').removeClass('noScroll');
     });
+    $('a').click(function(){
+    $('html, body').animate({
+        scrollTop: ($( $.attr(this, 'href') ).offset().top - $('#site-navigation').height())
+    }, 500);
+    return false;
+});
 	</script>
 
 <?php get_footer(); ?>

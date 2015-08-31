@@ -10,6 +10,9 @@ html.noScroll{
     transition:all 0.5s;
     -webkit-transition:all 0.5s;
 }
+.festival article:first-of-type{
+    padding:0;
+}
 .festival #overlay{
     position: fixed;
     background-color: rgba(0,0,0,.69);
@@ -41,11 +44,22 @@ html.noScroll{
 }
 
 .festival #festival-nav{
-	background-color: #d05721;
+	background-color: #B49CCA;
 	height: 100%;
 	font-weight: 700;
     color:#FFF;
     position:relative;
+    padding-right:24px;
+}
+.festival .nav-arrow{
+    width:8px;
+    height:8px;
+    border-top:3px solid #FfF;
+    border-right:3px solid #FfF;
+    position:absolute;
+    right:10px;
+    top:19px;
+    -webkit-transform:rotateZ(135deg);
 }
 .festival #festival-nav a{
     width:100%;
@@ -53,7 +67,7 @@ html.noScroll{
     color:#FfF;
 }
 #dropdown{
-    background-color: #d05721;
+    background-color: #B49CCA;
     height:150px;
     width:123px;
     position:absolute;
@@ -85,10 +99,11 @@ html.noScroll{
 }
 
 #attendbutton{
-    background-color: #d05721;
+    background-color: #B49CCA;
     color:#FfF;
     font-weight: 700;
     margin-top: 25%;
+    width:300px;
 }
 
 .festival h2{
@@ -108,14 +123,14 @@ html.noScroll{
 }
 #middle-section{
     padding: 0;
-    background-color: #29C2D6;
+    background-color: #B49CCA;
 }
 .festival .left-section{
     color:#FfF;
 	padding:50px;
 	width:50%;
 	float:left;
-	background-color: #29C2D6;
+	background-color: #B49CCA;
 }
 
 .festival .right-section{
@@ -124,6 +139,9 @@ html.noScroll{
 	width:50%;
 	float:right;
 	background-color: #6D6D6D;
+}
+.festival .right-section a:visited, .festival .left-section a:visited, #attend{
+    color:#000;
 }
 .festivalbutton, a.festivalbutton{
     width:200px;
@@ -157,41 +175,46 @@ html.noScroll{
 #for-partners h2{
     margin-bottom: 0;
 }
+
+.partner-section{
+    padding:0;
+}
 .partner-question{
     padding:75px 50px;
     cursor:pointer;
 
 }
+.partner-question h4{
+    text-align: center;
+}
 .partner-question.left-section{
     
-}
-.partner-question.left-section h4{
-    text-align: right;
 }
 .partner-question.right-section{
     float: right;
 }
 .partner-question.tile-1{
-    background-color: #D14D21;
+    background-color: #B49CCA;
 }
 .partner-question.tile-2{
-    background-color: #D16421;
+    background-color: #A986C9;
 }
 .partner-question.tile-3{
-    background-color: #d05721;
+    background-color: #9F72C9;
 }
-.partner-question.tile-1:hover{
-    background-color: #FF5E28;
+.partner-question:hover{
+    background-color: #6D6D6D;
+    color:#FFF;
 }
-.partner-question.tile-2:hover{
-    background-color: #FF6C28;
-}
-.partner-question.tile-3:hover{
-    background-color: #FF7A28;
-}
+
 #attend-section{
-    background-color: #D16421;
+    background-color: #9F72C9;
     text-align: center;
+}
+#attend-section a.festivalbutton{
+    font-size: 25px;
+    width: auto;
+    font-weight: 300;
 }
 
 
@@ -231,7 +254,7 @@ html.noScroll{
     padding-right:50px;
     padding-top:8px;
     border-top:1px solid;
-    color:#d05721;
+    color:#9F72C9;
 }
 .answer{
     transition:all 0.7s; 
@@ -274,12 +297,15 @@ html.noScroll{
 .arrow {
     width:10px;
     height:10px;
-    border-top:2px solid #d05721;
-    border-right:2px solid #d05721;
+    border-top:2px solid #9F72C9;
+    border-right:2px solid #9F72C9;
     position:absolute;
     right:30px;
     top:28px;
     -webkit-transform:rotateZ(135deg);
+}
+.festival footer a{
+    color:#B49CCA;
 }
 @media (max-width: 643px){
     .festival .center-section{
@@ -311,6 +337,9 @@ html.noScroll{
     }
     .festival article:first-of-type{
         padding:0;
+    }
+    .faq{
+        width: 100%;
     }
 }
 }
