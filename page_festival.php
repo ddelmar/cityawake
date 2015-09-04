@@ -132,7 +132,7 @@ END SLIDESHOW
                         
                         <div class = "faq">
                             <div class="question">How can I get involved with the festival?</div>
-                            <div class="answer" >There are lots of ways! If you represent an organization, hop over to our “2015 Festival Partners” section to learn more, or visit us here to volunteer with the City Awake Festival team.</div>
+                            <div class="answer" >There are lots of ways! If you represent an organization, hop over to our “2015 Festival Partners” section to learn more, or visit us <a href="https://festivalteam.typeform.com/to/sUPynI" target="_blank" >here</a> to volunteer with the City Awake Festival team.</div>
                             <div class="arrow right"></div>
                         </div> 
                         
@@ -188,7 +188,7 @@ END SLIDESHOW
                         </div>
                     <!--</div>-->
                     <div class="center-section" id="attend-section">
-                        <a class="festivalbutton" href=" https://festivalteam.typeform.com/to/XkEjfz" target"_blank"><p>Register Your Organization for the 2015 Festival!</p></a>
+                        <a class="festivalbutton" href=" https://festivalteam.typeform.com/to/XkEjfz" target="_blank"><p>Register Your Organization for the 2015 Festival!</p></a>
                     </div>
 
 

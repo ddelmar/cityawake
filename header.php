@@ -79,7 +79,7 @@
 					<ul>
 						<li><a href="/programs" class="nav" id="accelerate">Programs</a></li>
 						<li id="festival-nav">
-						<a href="/festival" class="nav" >Festival<div class="nav-arrow"></div></a>
+						<a href="/the-festival" class="nav" >Festival<div class="nav-arrow"></div></a>
 						<div id="dropdown">
 							<ul>
 								<li><a href="#about">About</a></li>

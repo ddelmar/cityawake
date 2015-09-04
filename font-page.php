@@ -16,9 +16,9 @@ BEGIN SLIDESHOW
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <!-- use jssor.slider.mini.js (40KB) instead for release -->
 <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
-<script type="text/javascript" src="/cityawake/wp-content/themes/cityawake/js/slider/jssor.js"></script>
-<script type="text/javascript" src="/cityawake/wp-content/themes/cityawake/js/slider/jssor.slider.js"></script>
-<script type="text/javascript" src="/cityawake/wp-content/themes/cityawake/js/slider/jssor.customization.js"></script>
+<script type="text/javascript" src="/wp-content/themes/cityawake/js/slider/jssor.js"></script>
+<script type="text/javascript" src="/wp-content/themes/cityawake/js/slider/jssor.slider.js"></script>
+<script type="text/javascript" src="/wp-content/themes/cityawake/js/slider/jssor.customization.js"></script>
 <link href="/wp-content/themes/cityawake/css/jssor-slider.css" rel="stylesheet" />
 <!-- Jssor Slider Begin -->
 <!-- To move inline styles to css file/block, please specify a class name for each element. -->
@@ -30,17 +30,17 @@ BEGIN SLIDESHOW
             height: 500px; overflow: hidden;">
             <div>
               <a href="/festival" title="City Awake Festival">
-                <img u="image" src="/cityawake/wp-content/themes/cityawake/images/slider1.svg" />
+                <img u="image" src="/wp-content/themes/cityawake/images/slider1.svg" />
               </a>
             </div>
 						<div>
 							<a href="http://unreasonablelabs.org/home/boston/" target="_blank">
-                <img u="image" src="/cityawake/wp-content/themes/cityawake/images/slider2.svg" />
+                <img u="image" src="/wp-content/themes/cityawake/images/slider2.svg" />
 							</a>
             </div>
 						<div>
 							<a href="https://docs.google.com/forms/d/1yhUiJgADGNZMlvL0vgY5fxDVIhu0eaAEPqxrwg0-3ow/viewform" target="_blank">
-                <img u="image" src="/cityawake/wp-content/themes/cityawake/images/slider3.svg" />
+                <img u="image" src="/wp-content/themes/cityawake/images/slider3.svg" />
 							</a>
             </div>
 
@@ -114,37 +114,37 @@ END SLIDESHOW
 			<ul id="partner_logos">
 				<li>
 					<a href="http://tugg.org" target="_blank" title="TUGG">
-						<img src="/cityawake/wp-content/themes/cityawake/images/partners/tugg.jpg" />
+						<img src="/wp-content/themes/cityawake/images/partners/tugg.jpg" />
 					</a>
 				</li>
 				<li>
 					<a href="http://www.massnonprofitnet.org/" target="_blank" title="Massachusetts Nonprofit Network">
-						<img src="/cityawake/wp-content/themes/cityawake/images/partners/mnn.jpg" />
+						<img src="/wp-content/themes/cityawake/images/partners/mnn.jpg" />
 					</a>
 				</li>
 				<li>
 					<a href="http://www.tbf.org/" target="_blank" title="The Boston Foundation">
-						<img src="/cityawake/wp-content/themes/cityawake/images/partners/tbf.jpg" />
+						<img src="/wp-content/themes/cityawake/images/partners/tbf.jpg" />
 					</a>
 				</li>
 				<li>
 					<a href="http://impacthub.net" target="_blank" title="Impact Hub">
-						<img src="/cityawake/wp-content/themes/cityawake/images/partners/ih.png" />
+						<img src="/wp-content/themes/cityawake/images/partners/ih.png" />
 					</a>
 				</li>
 				<li>
 					<a href="http://ashoka.org" target="_blank" title="Ashoka">
-						<img src="/cityawake/wp-content/themes/cityawake/images/partners/ashoka.png" />
+						<img src="/wp-content/themes/cityawake/images/partners/ashoka.png" />
 					</a>
 				</li>
 				<li>
 					<a href="http://www.bcbs.com/" target="_blank" title="Blue Cross Blue Shield">
-						<img src="/cityawake/wp-content/themes/cityawake/images/partners/bluecrossblueshield.png" />
+						<img src="/wp-content/themes/cityawake/images/partners/bluecrossblueshield.png" />
 					</a>
 				</li>
 				<li>
 					<a href="http://www.unitedway.org/" target="_blank" title="United Way">
-						<img src="/cityawake/wp-content/themes/cityawake/images/partners/unitedway.jpg" />
+						<img src="/wp-content/themes/cityawake/images/partners/unitedway.jpg" />
 					</a>
 				</li>
 			</ul>

@@ -6,9 +6,10 @@ FESTIVAL PAGE!
 html.noScroll{
     overflow-y:hidden;
 }
-*{
+.festival *{
     transition:all 0.5s;
     -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
 }
 .festival article:first-of-type{
     padding:0;
@@ -59,7 +60,9 @@ html.noScroll{
     position:absolute;
     right:10px;
     top:19px;
+    transform:rotateZ(135deg);
     -webkit-transform:rotateZ(135deg);
+    -moz-transform:rotateZ(135deg);
 }
 .festival #festival-nav a{
     width:100%;
@@ -140,7 +143,7 @@ html.noScroll{
 	float:right;
 	background-color: #6D6D6D;
 }
-.festival .right-section a:visited, .festival .left-section a:visited, #attend{
+.festival .right-section a:visited, .festival .left-section a:visited{
     color:#000;
 }
 .festivalbutton, a.festivalbutton{
@@ -208,15 +211,23 @@ html.noScroll{
 }
 
 #attend-section{
-    background-color: #9F72C9;
+    background-color: #FfF;
     text-align: center;
 }
 #attend-section a.festivalbutton{
     font-size: 25px;
     width: auto;
     font-weight: 300;
+    background-color: #9F72C9;
+    color:#FfF;
 }
-
+#attend-section a.festivalbutton:hover{
+    color:#FfF;
+    background-color:#6D6D6D;
+}
+#attend-section a.festivalbutton:visited{
+    color:#FFf;
+}
 
 
 #faqs{
@@ -302,12 +313,22 @@ html.noScroll{
     position:absolute;
     right:30px;
     top:28px;
+    transform:rotateZ(135deg);
     -webkit-transform:rotateZ(135deg);
+    -moz-transform:rotateZ(135deg);
+
 }
 .festival footer a{
     color:#B49CCA;
 }
 @media (max-width: 643px){
+    #navbar ul li{
+        float: left;
+        padding:0 .4em;
+    }
+    #navbar ul li a{
+        font-size: .75em;
+    }
     .festival .center-section{
         width: 100%;
         padding: 10px 10px;
