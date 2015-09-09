@@ -19,7 +19,7 @@
 
 					<!--Begin CTCT Sign-Up Form-->
 					<!-- EFD 1.0.0 [Tue Jul 14 00:44:05 EDT 2015] -->
-					<link rel='stylesheet' type='text/css' href='https://static.ctctcdn.com/h/contacts-embedded-signup-assets/1.0.2/css/signup-form.css'>
+					<!-- <link rel='stylesheet' type='text/css' href='https://static.ctctcdn.com/h/contacts-embedded-signup-assets/1.0.2/css/signup-form.css'> -->
 					<div class="ctct-embed-signup" style="font: 16px Helvetica Neue, Arial, sans-serif; font: 1rem Helvetica Neue, Arial, sans-serif; line-height: 1.5; -webkit-font-smoothing: antialiased;">
 					   <div style="color:#FFFFFF; background-color:#333333; border-radius:5px;">
 					       <span id="success_message" style="display:none;">
