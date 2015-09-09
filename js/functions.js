@@ -100,4 +100,52 @@
 			isRTL: body.is( '.rtl' )
 		} );
 	}
+
+	// SCROLL FUNCTIONALITY FOR NAV BAR
+	var didScroll;
+	var lastScrollTop = 0;
+	var delta = 5;
+	var navbarHeight = $('#navbar').outerHeight();
+
+	$(window).scroll(function(event){
+	    didScroll = true;
+	});
+
+	setInterval(function() {
+	    if (didScroll) {
+	        hasScrolled();
+	        didScroll = false;
+	    }
+	}, 250);
+
+	function hasScrolled() {
+	    var st = $(this).scrollTop();
+	    
+	    // Make sure they scroll more than delta
+	    if(Math.abs(lastScrollTop - st) <= delta)
+	        return;
+	    
+	    // If they scrolled down and are past the navbar, add class .nav-up.
+	    if (st > lastScrollTop && st > navbarHeight){
+	        // Scroll Down
+	        console.log("nav should shrink");
+	        $('#navbar').addClass('small-nav');
+	    } else {
+	        // Scroll Up
+	        if(st + $(window).height() < $(document).height()) {
+	        	console.log("nav should grow");
+	            $('#navbar').removeClass('small-nav')
+	        }
+	    }
+	    
+	    lastScrollTop = st;
+}
 } )( jQuery );
+
+
+
+
+
+
+
+
