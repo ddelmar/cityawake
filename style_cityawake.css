@@ -966,6 +966,8 @@ ul.nav-menu .focus > ul,
 }
 
 /* Navbar */
+
+
 .navbar {
 	background-color: #f7f5e7;
 	margin: 0 auto;
@@ -2364,6 +2366,35 @@ CITY AWAKE :: MEDIA QUERIES
       display:none;
     }
 
+	a#logo {
+    width: 160px;
+    float: left;
+    padding: 12px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+    nav ul{
+    list-style: none;
+    list-style-image: none;
+    float: right;
+    margin-right: 20%;
+    padding-bottom: 10px;
+}
+
+	.small-nav nav ul{
+		margin-right: 0;
+		padding-top: 12px;
+		margin-right: 25px;
+
+	}
+
+	.small-nav a#logo {
+		margin-left: 0px;
+		content:url("/wp-content/themes/cityawake/images/cityawake_logo_only.png");
+		width: 75px;
+	}
+
 	.entry-title {
 		margin-top: -250px;
 		position: absolute;
@@ -2720,6 +2751,35 @@ CITY AWAKE :: MEDIA QUERIES
 }
 
 @media (max-width: 643px) {
+	a#logo {
+    width: 160px;
+    float: left;
+    padding: 12px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+    nav ul{
+    list-style: none;
+    list-style-image: none;
+    float: right;
+    margin-right: 20%;
+    padding-bottom: 10px;
+}
+
+	.small-nav nav ul{
+		margin-right: 0;
+		padding-top: 12px;
+		margin-right: 25px;
+
+	}
+
+	.small-nav a#logo {
+		margin-left: 0px;
+		content:url("/wp-content/themes/cityawake/images/cityawake_logo_only.png");
+		width: 75px;
+	}
+
 	.site-title {
 		font-size: 30px;
 	}
@@ -2897,6 +2957,35 @@ CITY AWAKE :: MEDIA QUERIES
 
 /* Mobile devices */
 @media (max-width: 453px) {
+	a#logo {
+    width: 160px;
+    float: left;
+    padding: 12px;
+    margin-left: 30%;
+    text-align: center;
+}
+
+    nav ul{
+    list-style: none;
+    list-style-image: none;
+    float: right;
+    margin-right: 25%;
+    padding-bottom: 10px;
+}
+
+	.small-nav nav ul{
+		margin-right: 0;
+		padding-top: 12px;
+		margin-right: 75px;
+
+	}
+
+	.small-nav a#logo {
+		margin-left: 0px;
+		content:url("/wp-content/themes/cityawake/images/cityawake_logo_only.png");
+		width: 75px;
+	}
+
 	.entry-title{
 		margin-top:-450px;
 		position: absolute;
@@ -2905,6 +2994,36 @@ CITY AWAKE :: MEDIA QUERIES
 
 
 @media (max-width: 359px) {
+	
+	a#logo {
+    width: 160px;
+    float: left;
+    padding: 12px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+    nav ul{
+    list-style: none;
+    list-style-image: none;
+    float: right;
+    margin-right: 20%;
+    padding-bottom: 10px;
+}
+
+	.small-nav nav ul{
+		margin-right: 0;
+		padding-top: 12px;
+		margin-right: 25px;
+
+	}
+
+	.small-nav a#logo {
+		margin-left: 0px;
+		content:url("/wp-content/themes/cityawake/images/cityawake_logo_only.png");
+		width: 75px;
+	}
+
 	.site-title {
 		font-weight: normal;
 	}

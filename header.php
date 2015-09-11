@@ -73,9 +73,9 @@
 
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<a href="/" id="logo" >
-						<img src="/wp-content/themes/cityawake/images/cityawake.png" />
-					</a>
+						<a href="/" id="logo" >
+							<img src="/wp-content/themes/cityawake/images/cityawake.png" />
+						</a>
 					<ul>
 						<li><a href="/programs" class="nav" id="accelerate">Programs</a></li>
 						<li id="festival-nav">
