@@ -2559,6 +2559,17 @@ CITY AWAKE :: MEDIA QUERIES
 	.site {
 		border: 0;
 	}
+	.small-nav{
+		transition: all .5s;
+	}
+
+	a{
+		transition: all .5s;
+	}
+
+	nav ul{
+		transition: all .5s;
+	}
 }
 
 @media (min-width:800px) and (max-width: 1069px) {
