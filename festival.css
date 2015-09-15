@@ -321,6 +321,7 @@ html.noScroll{
 .festival footer a{
     color:#B49CCA;
 }
+
 @media (max-width: 643px){
     #navbar ul li{
         float: left;

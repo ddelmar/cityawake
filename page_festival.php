@@ -33,7 +33,12 @@ BEGIN SLIDESHOW
             <div>
               <a href="https://www.eventbrite.com/e/city-awake-festival-2015-partner-open-house-tickets-18348324332" title="City Awake Festival" target="_blank">
                 <img u="image" src="/wp-content/themes/cityawake/images/Festival2015Logo_withdate.png" />
-                <div class="festivalbutton" id="attendbutton"> <p>Join Our Next Open House</p></div>
+                <div class="festivalbutton" id="attendbutton"> <p>Join Our Next Open House</p><script class="ai1ec-widget-placeholder" data-widget="ai1ec_superwidget">
+ (function(){var d=document,s=d.createElement('script'),
+ i='ai1ec-script';if(d.getElementById(i))return;s.async=1;
+ s.id=i;s.src='http://live-timely-f1db05d716.time.ly/?ai1ec_js_widget';
+ d.getElementsByTagName('head')[0].appendChild(s);})();
+</script></div>
               </a>
             </div>
 

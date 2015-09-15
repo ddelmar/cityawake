@@ -2341,6 +2341,35 @@ CITY AWAKE :: Gallery
     padding: 10px 0px 0px 0px;
 }
 
+
+.ai1ec-views-dropdown{
+	display: none;
+}
+
+.ai1ec-pagination{
+	display:none;
+}
+
+.ai1ec-agenda-buttons{
+	display: none;
+}
+
+.ai1ec-bf-container{
+	display: none;
+}
+
+.ai1ec-date{
+	display: none;
+}
+
+.ai1ec-subscribe-container{
+	display: none;
+}
+
+.timely-widget, .timely, .timely-calendar{
+	min-height: 10px !important;
+}
+
 /*
 ===========================
 CITY AWAKE :: MEDIA QUERIES
