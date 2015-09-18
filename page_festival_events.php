@@ -40,7 +40,10 @@ BEGIN SLIDESHOW
                         s.id=i;s.src='http://live-timely-f1db05d716.time.ly/?ai1ec_js_widget';
                         d.getElementsByTagName('head')[0].appendChild(s);})();
                     </script>
-                    </div>
+                </div>
+                <div class="event-instuctions">
+                    <p>Please click below to submit your full event details for the 2015 Festival.The complete Festival calendar will be live on Thursday, October 8th.</p>
+                </div>
             </a>
             
             </div>
