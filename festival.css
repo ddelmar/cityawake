@@ -14,6 +14,9 @@ html.noScroll{
 .festival article:first-of-type{
     padding:0;
 }
+.festival #page{
+    background-color: #333;
+}
 .festival #overlay{
     position: fixed;
     background-color: rgba(0,0,0,.69);
@@ -117,6 +120,9 @@ html.noScroll{
 	width: 100%;
 	padding: 50px 20%;
     float:left;
+}
+.festival #about.center-section{
+    background-color: #FFF;
 }
 .festival .center-section h2{
 	text-align: center;
@@ -321,6 +327,9 @@ html.noScroll{
 .festival footer a{
     color:#B49CCA;
 }
+.festival footer{
+    margin-top: 0;
+}
 .festival footer label, .festival footer h2{
     color:#FfF;
 }
@@ -339,7 +348,7 @@ html.noScroll{
     display:block;
     position: relative;
     top:300px;
-    left:-200%;
+    left:-210%;
 }
 .festival #eventbutton .timely .ai1ec-btn-primary:hover{
     background-color: #A986C9;
@@ -350,9 +359,12 @@ html.noScroll{
 
 .event-instuctions{
     margin: 0 auto;
-    width: 550px;
+    width: 450px;
     margin-top: 160px;
+    color:#FFF;
+
 }
+
 
 @media (max-width: 643px){
     #navbar ul li{
