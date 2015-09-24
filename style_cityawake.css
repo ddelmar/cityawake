@@ -2341,33 +2341,14 @@ CITY AWAKE :: Gallery
     padding: 10px 0px 0px 0px;
 }
 
-
-.ai1ec-views-dropdown{
-	display: none;
+.timely, .timely-widget, .timely-calendar{
+	min-height: 0!important;
 }
-
-.ai1ec-pagination{
-	display:none;
-}
-
-.ai1ec-agenda-buttons{
-	display: none;
-}
-
-.ai1ec-bf-container{
-	display: none;
-}
-
-.ai1ec-date{
-	display: none;
-}
-
-.ai1ec-subscribe-container{
-	display: none;
-}
-
-.timely-widget, .timely, .timely-calendar{
-	min-height: 10px !important;
+.calender-widget{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width:66%;
+	padding: 20px 0;
 }
 
 

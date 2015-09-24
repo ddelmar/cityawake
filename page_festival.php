@@ -36,7 +36,6 @@ BEGIN SLIDESHOW
                 <div class="festivalbutton" id="attendbutton"> <p>Join Our Next Open House</p></div>
               </a>
             </div>
-
         </div>
 
     </div>
@@ -51,7 +50,14 @@ END SLIDESHOW
 ?>
 
 	
-
+    <div class="calender-widget">
+        <script class="ai1ec-widget-placeholder" data-widget="ai1ec_superwidget">
+             (function(){var d=document,s=d.createElement('script'),
+             i='ai1ec-script';if(d.getElementById(i))return;s.async=1;
+             s.id=i;s.src='http://live-timely-f1db05d716.time.ly/?ai1ec_js_widget';
+             d.getElementsByTagName('head')[0].appendChild(s);})();
+        </script>
+    </div>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
