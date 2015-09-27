@@ -91,6 +91,7 @@
 						</li>
 						<li><a href="/blog" class="nav" >Blog</a></li>
 						<li><a href="/team" class="nav" >Team</a></li>
+						<li><a href="http://ourconvention.com/" class="nav" target="_blank">Our Convention</a></li>
 
 					</ul>
 				</nav>
