@@ -34,11 +34,6 @@ BEGIN SLIDESHOW
               </a>
             </div>
 						<div>
-							<a href="http://unreasonablelabs.org/home/boston/" target="_blank">
-                <img u="image" src="/wp-content/themes/cityawake/images/slider2.svg" />
-							</a>
-            </div>
-						<div>
 							<a href="https://docs.google.com/forms/d/1yhUiJgADGNZMlvL0vgY5fxDVIhu0eaAEPqxrwg0-3ow/viewform" target="_blank">
                 <img u="image" src="/wp-content/themes/cityawake/images/slider3.svg" />
 							</a>
