@@ -1994,6 +1994,9 @@ input.hs-input, textarea.hs-input,
   padding: 80px 0;
 }
 
+.calender{
+
+}
 /*
 ============================================
 CITY AWAKE :: Gallery
@@ -2351,7 +2354,13 @@ CITY AWAKE :: Gallery
 	padding: 20px 0;
 }
 
+.ai1ec-pagination{
+	margin-top: 10px;
+} 
 
+.ai1ec-dropdown-toggle{
+	margin-top: 5px;
+}
 
 /*
 ===========================

@@ -50,14 +50,6 @@ END SLIDESHOW
 ?>
 
 	
-    <div class="calender-widget">
-        <script class="ai1ec-widget-placeholder" data-widget="ai1ec_superwidget">
-             (function(){var d=document,s=d.createElement('script'),
-             i='ai1ec-script';if(d.getElementById(i))return;s.async=1;
-             s.id=i;s.src='http://live-timely-f1db05d716.time.ly/?ai1ec_js_widget';
-             d.getElementsByTagName('head')[0].appendChild(s);})();
-        </script>
-    </div>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
@@ -82,11 +74,11 @@ END SLIDESHOW
 					</div>
                     <div class="center-section" id="middle-section">
     					<div class="left-section" id="become_partners">
-    						<h2>Become a Partner</h2>
+    						<h2>Become a Supporter</h2>
     						<p>Learn more about how your organization can participate in our citywide Festival and become a part of Boston's vibrant social impact movement now.</p>
-    						<a class="festivalbutton" href="#for-partners" data-section="volunteer">
+    						<a class="festivalbutton" href="mailto:festival@cityawake.is" data-section="volunteer">
                                
-                                Learn More                
+                                Email Us!               
                             </a>
     					</div><!-- .entry-header -->
 
@@ -99,7 +91,17 @@ END SLIDESHOW
                             </a>
     					</div><!-- .entry-content -->
                     </div>
-                    
+                    <div class="calender">
+                        <div class="calender-widget">
+                            <script class="ai1ec-widget-placeholder" data-widget="ai1ec_superwidget">
+                                 (function(){var d=document,s=d.createElement('script'),
+                                 i='ai1ec-script';if(d.getElementById(i))return;s.async=1;
+                                 s.id=i;s.src='http://live-timely-f1db05d716.time.ly/?ai1ec_js_widget';
+                                 d.getElementsByTagName('head')[0].appendChild(s);})();
+                            </script>
+                        </div>
+                    </div>
+
                 	<div id="faqs" >
                         <h2>2015 Festival FAQs</h2>
                         <div class="faq_container" >
@@ -151,7 +153,7 @@ END SLIDESHOW
                     </div>
 
                     <div class="center-section" id="for-partners">
-                        <h2>Learn more about becoming a 2015 Festival Partner</h2>
+                        <h2>Meet the Companies!</h2>
                     </div>
                     <!-- <div class="center-section partner-section"> -->
                         <div class="partner-question open-modal left-section tile-1" data-modal="coalitionmodal">
@@ -193,9 +195,7 @@ END SLIDESHOW
                             <h4>Making your event zero-waste</h4>
                         </div>
                     <!--</div>-->
-                    <div class="center-section" id="attend-section">
-                        <a class="festivalbutton" href=" https://festivalteam.typeform.com/to/XkEjfz" target="_blank"><p>Register Your Organization for the 2015 Festival!</p></a>
-                    </div>
+                    
 
 
     <div id="for-modal">
