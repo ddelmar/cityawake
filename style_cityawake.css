@@ -1995,8 +1995,10 @@ input.hs-input, textarea.hs-input,
 }
 
 .calender{
-
+	background-color: #FFFFFF;
+	padding-bottom: 1px;
 }
+
 /*
 ============================================
 CITY AWAKE :: Gallery
@@ -2459,6 +2461,7 @@ CITY AWAKE :: MEDIA QUERIES
 	.entry-content {
 		margin-top: 100px;
 	}
+	
 
   }
 
@@ -2862,7 +2865,7 @@ CITY AWAKE :: MEDIA QUERIES
 		font-size: 30px;
 	}
 
-	
+
 
 	/* Small menu */
 	.menu-toggle {
