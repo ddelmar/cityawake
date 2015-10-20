@@ -377,6 +377,7 @@ html.noScroll{
     .festival .center-section{
         width: 100%;
         padding: 10px 10px;
+        padding-top: 125px;
         float:left;
     }   
     #attend-section{
@@ -407,5 +408,9 @@ html.noScroll{
     .faq{
         width: 100%;
     }
+   
+} 
+
+
 }
 }

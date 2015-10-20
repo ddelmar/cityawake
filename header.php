@@ -86,6 +86,7 @@
 								<li><a href="#become_partners">Get Involved</a></li>
 								<li><a href="#faqs">FAQs</a></li>
 								<li><a href="#for-partners">For Partners </a></li>
+								<li><a href="#ai1ec-container">Calendar</a></li>
 							</ul>
 						</div>
 						</li>

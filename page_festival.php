@@ -91,7 +91,7 @@ END SLIDESHOW
                             </a>
     					</div><!-- .entry-content -->
                     </div>
-                    <div class="calender">
+                    <div class="calender" >
                         <div class="calender-widget">
                             <script class="ai1ec-widget-placeholder" data-widget="ai1ec_superwidget">
                                  (function(){var d=document,s=d.createElement('script'),
@@ -112,12 +112,12 @@ END SLIDESHOW
                         </div>
                         <div class = "faq">
                             <div class="question">Where is the Festival?</div>
-                            <div class="answer" >The Festival is citywide! From Roxbury to Somerville, exciting organizations and initiatives are happening that you don’t want to miss!z</div>
+                            <div class="answer" >The Festival is citywide! From Roxbury to Somerville, exciting organizations and initiatives are happening that you don’t want to miss!</div>
                             <div class="arrow right"></div>
                         </div>
                          <div class = "faq">
                             <div class="question">How do I sign up for events?</div>
-                            <div class="answer" >Check back here in October to start building your Festival itinerary and register to attend events. </div>
+                            <div class="answer" >Check out the festival <a href="#ai1ec-container">calender</a></div>
                             <div class="arrow right"></div>
                         </div>
                         <div class = "faq">

@@ -2354,12 +2354,47 @@ CITY AWAKE :: Gallery
 	padding: 20px 0;
 }
 
-.ai1ec-pagination{
+#eventbutton.ai1ec-pagination{
 	margin-top: 10px;
 } 
 
-.ai1ec-dropdown-toggle{
+#eventbutton.ai1ec-dropdown-toggle{
 	margin-top: 5px;
+}
+
+#eventbutton.ai1ec-views-dropdown{
+	display: none;
+}
+
+#eventbutton.ai1ec-pagination{
+	display:none;
+}
+
+#eventbutton.ai1ec-agenda-buttons{
+	display: none;
+}
+
+#eventbutton.ai1ec-bf-container{
+	display: none !important;
+}
+
+#eventbutton.ai1ec-date{
+	display: none;
+}
+
+#eventbutton.ai1ec-subscribe-container{
+	display: none;
+}
+
+#eventbutton.timely-widget, .timely, .timely-calendar{
+	min-height: 10px !important;
+}
+
+#eventbutton.ai1ec-bf-inited{
+	display: none;
+}
+#eventbutton.ai1ec-event-wrap{
+	display:none !important;
 }
 
 /*
@@ -2827,6 +2862,8 @@ CITY AWAKE :: MEDIA QUERIES
 		font-size: 30px;
 	}
 
+	
+
 	/* Small menu */
 	.menu-toggle {
 		cursor: pointer;
@@ -3033,6 +3070,8 @@ CITY AWAKE :: MEDIA QUERIES
 		margin-top:-450px;
 		position: absolute;
 	}
+
+	
 }
 
 
