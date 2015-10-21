@@ -2896,9 +2896,11 @@ CITY AWAKE :: MEDIA QUERIES
 }
 
 	.small-nav nav ul{
-		margin-right: 0;
 		padding-top: 12px;
 		margin-right: 25px;
+		margin-top: -80px;
+		margin-left: 75px;
+		float: right;
 
 	}
 
