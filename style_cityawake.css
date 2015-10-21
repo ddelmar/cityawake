@@ -1994,9 +1994,23 @@ input.hs-input, textarea.hs-input,
   padding: 80px 0;
 }
 
-.calender{
+.calendar{
 	background-color: #FFFFFF;
 	padding-bottom: 1px;
+}
+#calendar.center-section{
+	padding: 100px 0 0 0;
+	background-color: #fff;
+}
+#calendar.center-section h2{
+	color: #333;
+}
+/*.ai1ec-event-avatar.timely.ai1ec-post_thumbnail.ai1ec-landscape{
+	display:none;
+}*/
+#ai1ec-event-modal .ai1ec-single-event section.page-content {
+    margin-top: 20px;
+    width: 90%;
 }
 
 /*
@@ -2349,7 +2363,7 @@ CITY AWAKE :: Gallery
 .timely, .timely-widget, .timely-calendar{
 	min-height: 0!important;
 }
-.calender-widget{
+.calendar-widget{
 	margin: 0 auto;
 	margin-bottom: 20px;
 	width:66%;
@@ -2364,7 +2378,7 @@ CITY AWAKE :: Gallery
 	margin-top: 5px;
 }
 
-#eventbutton.ai1ec-views-dropdown{
+#eventbutton.ai1ec-views-dropdown, #eventbutton .ai1ec-calendar-view .ai1ec-views-dropdown, #eventbutton .ai1ec-bf-container, #eventbutton .ai1ec-stream-view, #eventbutton .ai1ec-pull-left, #eventbutton .ai1ec-subscribe-container.ai1ec-pull-right.ai1ec-btn-group, #eventbutton .ai1ec-pagination.ai1ec-btn-group{
 	display: none;
 }
 
@@ -2398,6 +2412,447 @@ CITY AWAKE :: Gallery
 #eventbutton.ai1ec-event-wrap{
 	display:none !important;
 }
+
+/*
+==============
+FESTIVAL PAGE!
+==============
+*/
+html.noScroll{
+    overflow-y:hidden;
+}
+.festival *{
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+}
+.festival article:first-of-type{
+    padding:0;
+}
+.festival #page{
+    background-color: #333;
+}
+.festival #overlay{
+    position: fixed;
+    background-color: rgba(0,0,0,.69);
+    opacity: 1;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    display:none;
+    z-index: 69;
+}
+.festival #overlay.visible{
+    display: block;
+}
+.festival #overlay #modal{
+    width:75%;
+    height: 75%;
+    background-color: #FfF;
+    margin: 7% auto 0 auto;
+    padding:4%;
+    overflow-y:scroll;
+
+}
+#for-modal{
+    display:none;
+}
+.festival #masthead{
+    height: 0;
+}
+
+.festival #festival-nav{
+	background-color: #B49CCA;
+	height: 100%;
+	font-weight: 700;
+    color:#FFF;
+    position:relative;
+    padding-right:24px;
+}
+.festival .nav-arrow{
+    width:8px;
+    height:8px;
+    border-top:3px solid #FfF;
+    border-right:3px solid #FfF;
+    position:absolute;
+    right:10px;
+    top:19px;
+    transform:rotateZ(135deg);
+    -webkit-transform:rotateZ(135deg);
+    -moz-transform:rotateZ(135deg);
+}
+.festival #festival-nav a{
+    width:100%;
+    height: 42px;
+    color:#FfF;
+}
+#dropdown{
+    background-color: #B49CCA;
+    height:150px;
+    width:123px;
+    position:absolute;
+    padding-top:20px;
+    left:0;
+    opacity: 0;
+    margin-top: -100%;
+    pointer-events:none;
+}
+.festival #festival-nav:hover #dropdown{
+    opacity: 1;
+    margin-top: 0;
+    pointer-events:auto;
+}
+#dropdown a{
+    color:#FfF;
+}
+#dropdown ul{
+    width:100%;
+    color:#FfF;
+    font-weight: 500;
+}
+#dropdown li{
+    color:#FfF;
+    font-weight: 500;
+}
+.festival .navbar ul{
+	height: 48px;
+}
+
+#attendbutton{
+    background-color: #B49CCA;
+    color:#FfF;
+    font-weight: 700;
+    /*margin-top: 25%;*/
+    width:300px;
+    position: absolute;
+    top:280px;
+    left:50%;
+    margin-left:-150px;
+}
+
+.festival h2{
+    margin-bottom:35px;
+}
+
+.festival .center-section{
+	width: 100%;
+	padding: 50px 20%;
+    float:left;
+}
+.festival #about.center-section{
+    background-color: #FFF;
+}
+.festival .center-section h2{
+	text-align: center;
+}
+.festival .center-section p{
+	margin-top:38px;
+}
+#middle-section{
+    padding: 0;
+    background-color: #B49CCA;
+}
+.festival .left-section{
+    color:#FfF;
+	padding:50px;
+	width:50%;
+	float:left;
+	background-color: #B49CCA;
+}
+
+.festival .right-section{
+    color:#FFF;
+	padding:50px;
+	width:50%;
+	float:right;
+	background-color: #6D6D6D;
+}
+.festival .right-section a:visited, .festival .left-section a:visited{
+    color:#000;
+}
+.festivalbutton, a.festivalbutton{
+    width:200px;
+    background-color: #FfF;
+    margin: 20px auto 0 auto;
+    border-radius: 6px;
+    padding:13px;
+    text-align: center;
+    color:#333;
+    cursor:pointer;
+    display:block;
+}
+#main a.festivalbutton p{
+    margin-top: 0;
+}
+.festivalbutton:hover, #main a.festivalbutton:hover{
+    background-color: #e0e0e0;
+    color:#333;
+}
+.festivalbutton img, a.festivalbutton img{
+    height: 95%;
+    width:auto;
+    margin:0 auto;
+}
+
+#for-partners{
+    color:#FfF;
+    background-color: #333333;
+    padding:50px;
+}
+#for-partners h2{
+    margin-bottom: 0;
+}
+
+.partner-section{
+    padding:0;
+}
+.partner-question{
+    padding:75px 50px;
+    cursor:pointer;
+
+}
+.partner-question h4{
+    text-align: center;
+}
+.partner-question.left-section{
+    
+}
+.partner-question.right-section{
+    float: right;
+}
+.partner-question.tile-1{
+    background-color: #B49CCA;
+}
+.partner-question.tile-2{
+    background-color: #A986C9;
+}
+.partner-question.tile-3{
+    background-color: #9F72C9;
+}
+.partner-question:hover{
+    background-color: #6D6D6D;
+    color:#FFF;
+}
+
+#attend-section{
+    background-color: #FfF;
+    text-align: center;
+}
+#attend-section a.festivalbutton{
+    font-size: 25px;
+    width: auto;
+    font-weight: 300;
+    background-color: #9F72C9;
+    color:#FfF;
+}
+#attend-section a.festivalbutton:hover{
+    color:#FfF;
+    background-color:#6D6D6D;
+}
+#attend-section a.festivalbutton:visited{
+    color:#FFf;
+}
+
+
+#faqs{
+    background-color:#FfF;
+    width:100%; 
+    display:inline-block;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.faq_container{
+    background-color:none;
+    margin-top:-20px;
+    margin-bottom:40px;
+    text-align:center;
+    z-index: 0;
+}
+
+.faq{
+    /*background-color:#d05721;*/
+    width:35%;
+    margin:0.3% 1.2%;
+    display:inline-block;
+    cursor:pointer;
+    text-align:left;
+    padding:15px 2%;
+    position:relative;
+    font-size:1em;
+    color:#333;
+}
+.faq:hover, .answer.expanding ~ .faq{
+    /*background-color:#3DBA34;*/
+}
+.question{
+    padding-right:50px;
+    padding-top:8px;
+    border-top:1px solid;
+    color:#9F72C9;
+}
+.answer{
+    transition:all 0.7s; 
+    top:0;
+    opacity: 0;
+    width:100%;
+    left:0;
+    display:block;
+    font-size: 0px;
+    margin-top:0;
+    color:#333;
+    /*height: 0;*/
+}
+.answer.expanding{
+   font-size:inherit;
+   margin-top:30px;
+}
+.answer.expanding + .arrow{
+    -webkit-transform:rotateZ(315deg);
+}
+.answer.visible{
+    opacity: 1;
+}
+.answer.hiding{
+    opacity: 0;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid black;
+    float:right;
+    margin-bottom:-0px;
+    margin-top:10px;
+}
+
+
+.arrow {
+    width:10px;
+    height:10px;
+    border-top:2px solid #9F72C9;
+    border-right:2px solid #9F72C9;
+    position:absolute;
+    right:30px;
+    top:28px;
+    transform:rotateZ(135deg);
+    -webkit-transform:rotateZ(135deg);
+    -moz-transform:rotateZ(135deg);
+
+}
+.festival footer a{
+    color:#B49CCA;
+}
+.festival footer{
+    margin-top: 0;
+}
+.festival footer label, .festival footer h2{
+    color:#FfF;
+}
+.festival #eventbutton .timely .ai1ec-btn-primary{
+    width:250px;
+    background-color: #B49CCA;
+    border:none;
+    margin: 20px auto 0 auto;
+    border-radius: 6px;
+    padding:15px;
+    text-align: center;
+    color:#FFF;
+    font-weight: 500;
+    font-size: 18px;
+    cursor:pointer;
+    display:block;
+    position: relative;
+    top:300px;
+    left:-210%;
+}
+.festival #eventbutton .timely .ai1ec-btn-primary:hover{
+    background-color: #A986C9;
+}
+.festival #eventbutton .timely .ai1ec-btn-primary i{
+    display: none;
+}
+
+.event-instuctions{
+    margin: 0 auto;
+    width: 450px;
+    margin-top: 340px;
+    color:#FFF;
+
+}
+
+/*NEW EVENT PAGE STUFF*/
+.festival .hero-section{
+    width:100%;
+    height: 100vh;
+    background-image: url(http://cityawake.is/wp-content/themes/cityawake/images/headers/cityscape_dark.jpg);
+    background-size: cover;
+}
+.festival .hero-section img{
+	/*width: 80%;*/
+    height: auto;
+    width: 276px;
+    left: 50%;
+    margin-left:-138px;
+    position: absolute;
+    margin-top: 142px;
+
+}
+.new-event .ai1ec-event, .fnew-event.ai1ec-posterboard-view .ai1ec-event{
+    display: none;
+}
+
+
+@media (max-width: 643px){
+    #navbar ul li{
+        float: left;
+        padding:0 .4em;
+    }
+    #navbar ul li a{
+        font-size: .75em;
+    }
+    .festival .center-section{
+        width: 100%;
+        padding: 10px 10px;
+        padding-top: 125px;
+        float:left;
+    }   
+    #attend-section{
+        padding:70px;
+    }
+    .festival .left-section{
+        width:100%;
+        float:left;
+    }
+
+    .festival .right-section{
+        color:#FFF;
+        padding:50px;
+        width:100%;
+        float:left;
+    }
+    .partner-question{
+        float: left;
+        text-align: center;
+        padding:20px;
+    }
+    .partner-question.left-section h4, .partner-question.right-section h4{
+        text-align: center;
+    }
+    .festival article:first-of-type{
+        padding:0;
+    }
+    .faq{
+        width: 100%;
+    }
+   
+} 
+
+
+
 
 /*
 ===========================
@@ -2464,6 +2919,8 @@ CITY AWAKE :: MEDIA QUERIES
 	
 
   }
+
+
 
 
   @media (min-width: 800px) { /* TABLET ONLY */

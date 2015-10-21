@@ -15,31 +15,12 @@ BEGIN SLIDESHOW
 */
 ?>
 <!-- it works the same with all jquery version from 1.x to 2.x -->
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-<!-- use jssor.slider.mini.js (40KB) instead for release -->
-<!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
-<script type="text/javascript" src="/wp-content/themes/cityawake/js/slider/jssor.js"></script>
-<script type="text/javascript" src="/wp-content/themes/cityawake/js/slider/jssor.slider.js"></script>
-<script type="text/javascript" src="/wp-content/themes/cityawake/js/slider/jssor.customization.js"></script>
-<link href="/wp-content/themes/cityawake/css/jssor-slider.css" rel="stylesheet" />
-<!-- Jssor Slider Begin -->
-<!-- To move inline styles to css file/block, please specify a class name for each element. -->
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> -->
 
-<div id="slider1_container" style="position: relative; margin: 0 auto;
-        top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; background-image: url('/wp-content/themes/cityawake/images/headers/cityscape.jpg')">
-        <!-- Slides Container -->
-<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px;
-            height: 500px; overflow: hidden;">
-            <div>
-              <a href="https://www.eventbrite.com/e/city-awake-festival-2015-partner-open-house-tickets-18348324332" title="City Awake Festival" target="_blank">
-                <img u="image" src="/wp-content/themes/cityawake/images/Festival2015Logo_withdate.png" />
-                <div class="festivalbutton" id="attendbutton"> <p>Join Our Next Open House</p></div>
-              </a>
-            </div>
-        </div>
-
-    </div>
-    <!-- Jssor Slider End -->
+<div class="hero-section">
+    <img src="/wp-content/themes/cityawake/city-awake-white.png">
+    <a class="festivalbutton" id="attendbutton" href="https://www.eventbrite.com/e/city-awake-festival-2015-partner-open-house-tickets-18348324332" target="_blank"> <p>Join Our Next Open House</p></a>
+</div>
 
 <?php
 /*
@@ -91,8 +72,9 @@ END SLIDESHOW
                             </a>
     					</div><!-- .entry-content -->
                     </div>
-                    <div class="calender" >
-                        <div class="calender-widget">
+                    <div class="calendar center-section" id="calendar" >
+                        <h2>Events</h2>
+                        <div class="calendar-widget">
                             <script class="ai1ec-widget-placeholder" data-widget="ai1ec_superwidget">
                                  (function(){var d=document,s=d.createElement('script'),
                                  i='ai1ec-script';if(d.getElementById(i))return;s.async=1;
@@ -117,7 +99,7 @@ END SLIDESHOW
                         </div>
                          <div class = "faq">
                             <div class="question">How do I sign up for events?</div>
-                            <div class="answer" >Check out the festival <a href="#ai1ec-container">calender</a></div>
+                            <div class="answer" >Check out the festival <a href="#calendar">calendar</a></div>
                             <div class="arrow right"></div>
                         </div>
                         <div class = "faq">
@@ -153,7 +135,7 @@ END SLIDESHOW
                     </div>
 
                     <div class="center-section" id="for-partners">
-                        <h2>Meet the Companies!</h2>
+                        <h2>Learn more about becoming a 2015 Festival Partner</h2>
                     </div>
                     <!-- <div class="center-section partner-section"> -->
                         <div class="partner-question open-modal left-section tile-1" data-modal="coalitionmodal">
