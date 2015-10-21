@@ -2469,6 +2469,7 @@ html.noScroll{
     color:#FFF;
     position:relative;
     padding-right:24px;
+    padding-bottom: 35px;
 }
 .festival .nav-arrow{
     width:8px;
@@ -2891,7 +2892,7 @@ CITY AWAKE :: MEDIA QUERIES
     list-style: none;
     list-style-image: none;
     float: right;
-    margin-right: 30%;
+    width:100%;
     padding-bottom: 10px;
 }
 
@@ -3303,7 +3304,7 @@ CITY AWAKE :: MEDIA QUERIES
     list-style: none;
     list-style-image: none;
     float: right;
-    margin-right: 35%;
+    margin-right: 10%%;
     padding-bottom: 10px;
 }
 
@@ -3511,14 +3512,14 @@ CITY AWAKE :: MEDIA QUERIES
     list-style: none;
     list-style-image: none;
     float: right;
-    margin-right: 25%;
+    margin: 0 auto;
     padding-bottom: 10px;
 }
 
 	.small-nav nav ul{
-		margin-right: 0;
+		margin-right: -60px;
 		padding-top: 12px;
-		margin-right: 75px;
+		margin-right: -60px;
 
 	}
 
@@ -3551,7 +3552,7 @@ CITY AWAKE :: MEDIA QUERIES
     list-style: none;
     list-style-image: none;
     float: right;
-    margin-right: 20%;
+    margin-right: 10%;
     padding-bottom: 10px;
 }
 
