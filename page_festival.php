@@ -19,7 +19,7 @@ BEGIN SLIDESHOW
 
 <div class="hero-section">
     <img src="/wp-content/themes/cityawake/city-awake-white.png">
-    <a class="festivalbutton" id="attendbutton" href="https://www.eventbrite.com/e/city-awake-festival-2015-partner-open-house-tickets-18348324332" target="_blank"> <p>Join Our Next Open House</p></a>
+    <a class="festivalbutton" id="attendbutton" href="https://www.eventbrite.com/e/wide-awake-city-awake-festival-kickoff-breakfast-tickets-19263009179" target="_blank"> <p>RSVP for the Festival Kickoff Breakfast</p></a>
 </div>
 
 <?php
