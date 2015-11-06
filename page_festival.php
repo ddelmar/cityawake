@@ -52,6 +52,10 @@ END SLIDESHOW
 
                         <p>True to its form, this festival is a genuine grass-roots effort and illustrates the capabilities of our united community: events, which will vary in topic, format, and location, with many happening simultaneously across the city, will be open to the public and designed, implemented, and hosted by the dedicated partners. While it is a celebration of the achievements of the entire for-impact community, the festival also marks the chance for reflection and future planning. Join us in solidifying Boston’s position as an impact ecosystem hub: one that leverages its constituents’ diverse expertise & networks to tackle the world’s most challenging problems.
                         </p>
+                        <h2>The Festival is supported by:</h2>
+                        <a href="https://angel.co/hyperplane" target="_blank">
+                            <img src="/wp-content/themes/cityawake/images/hyperplane.png">
+                        </a>
 					</div>
                     <div class="center-section" id="middle-section">
     					<div class="left-section" id="become_partners">
@@ -64,22 +68,21 @@ END SLIDESHOW
     					</div><!-- .entry-header -->
 
     					<div class="right-section">
-    						<h2>Become a Volunteer</h2>
-    						<p>From marketing mavens and tech gurus to partner champions and planning pros, we are looking for wildly passionate volunteers to help organize the 2015 Festival.</p>
-    						<a class="festivalbutton" href="https://festivalteam.typeform.com/to/sUPynI" target="_blank" data-section="volunteer" data-modal="volunteermodal">
-                               
-                                Sign up now                 
+    						<h2>Download DoneGood</h2>
+    						<p>Download DoneGood, the official Festival app, for events, information, and more!</p>
+    						<a class="" href="http://www.donegood.co/" target="_blank" >
+                                <img id="donegood"src="/wp-content/themes/cityawake/images/donegood.png">               
                             </a>
     					</div><!-- .entry-content -->
                     </div>
                     <div class="calendar center-section" id="calendar" >
                         <h2>Events</h2>
                         <div class="calendar-widget">
-                            <script class="ai1ec-widget-placeholder" data-widget="ai1ec_superwidget">
-                                 (function(){var d=document,s=d.createElement('script'),
-                                 i='ai1ec-script';if(d.getElementById(i))return;s.async=1;
-                                 s.id=i;s.src='http://live-timely-f1db05d716.time.ly/?ai1ec_js_widget';
-                                 d.getElementsByTagName('head')[0].appendChild(s);})();
+                            <script class="ai1ec-widget-placeholder" data-widget="ai1ecfe_fe_widget">
+                              (function(){var d=document,s=d.createElement('script'),
+                              i='ai1ec-script';if(d.getElementById(i))return;s.async=1;
+                              s.id=i;s.src='http://live-timely-f1db05d716.time.ly/?ai1ec_js_widget';
+                              d.getElementsByTagName('head')[0].appendChild(s);})();
                             </script>
                         </div>
                     </div>

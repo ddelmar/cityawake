@@ -2544,6 +2544,18 @@ html.noScroll{
 .festival #about.center-section{
     background-color: #FFF;
 }
+.festival #about.center-section a{
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	max-width:350px;
+	display: block;
+}
+.festival #about.center-section a img{
+	width:100%;
+	height: auto;
+	cursor: pointer;
+}
 .festival .center-section h2{
 	text-align: center;
 }
@@ -2567,7 +2579,11 @@ html.noScroll{
 	padding:50px;
 	width:50%;
 	float:right;
-	background-color: #6D6D6D;
+	background-color: #f05b22;
+}
+#donegood{
+	margin: 0 auto;
+	display: block;
 }
 .festival .right-section a:visited, .festival .left-section a:visited{
     color:#000;
