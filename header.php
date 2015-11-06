@@ -21,6 +21,8 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
+	<meta property="og:image" content="http://cityawake.is/wp-content/themes/cityawake/images/cityawakebanner.png" />
+
 	<title>
 		City Awake<?php /* wp_title( '|', true, 'right' ); */ ?>
 
@@ -97,7 +99,7 @@
 					</ul>
 				</nav>
 			</div>
-			
+
 
 			<h1>
 				<?php the_title(); ?>
